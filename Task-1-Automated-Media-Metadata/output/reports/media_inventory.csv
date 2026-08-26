@@ -1,0 +1,2 @@
+filename,media_type,resolution,objects,object_count,brightness,lighting,contrast,sharpness,quality,tags
+test_image.jpg,image,3712x5568,"person, potted plant",2,113.06,Normal,Medium,130.14,Slightly Blurry,"black, brown, general, gray, low-noise, medium-contrast, normal, normally exposed, people---animals, person, potted plant, warm-tone"
