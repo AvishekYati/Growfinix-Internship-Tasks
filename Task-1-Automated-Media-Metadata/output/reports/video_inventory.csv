@@ -1,2 +1,2 @@
 filename,media_type,resolution,duration_seconds,fps,frames_analyzed,average_brightness,average_contrast,average_sharpness,cinematic_score,scene_changes,objects
-cinematic_video.mp4,video,1920x872,22.033,30.0,23,220.27,61.838,1599.142,68.045,1,"surfboard, person, cake, book, skateboard, kite"
+cinematic_video.mp4,video,1920x1080,9.905,24.027,10,113.477,62.71,215.308,72.362,0,person

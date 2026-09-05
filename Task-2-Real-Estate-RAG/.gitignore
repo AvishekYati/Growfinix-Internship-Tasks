@@ -1,0 +1,30 @@
+# API keys and environment variables
+.env
+
+# Dataset
+data/*.csv
+data/*.zip
+data/*.rar
+
+# ChromaDB
+chroma_db/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environment
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+.DS_Store

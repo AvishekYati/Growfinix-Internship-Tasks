@@ -6,4598 +6,2186 @@
     "file_information": {
         "filename": "cinematic_video.mp4",
         "extension": ".mp4",
-        "file_size_bytes": 20157127,
-        "file_size_mb": 19.223,
+        "file_size_bytes": 17963054,
+        "file_size_mb": 17.131,
         "media_type": "video"
     },
     "video_information": {
-        "fps": 30.0,
-        "frame_count": 661,
+        "fps": 24.027,
+        "frame_count": 238,
         "width": 1920,
-        "height": 872,
-        "resolution": "1920x872",
-        "duration_seconds": 22.033,
+        "height": 1080,
+        "resolution": "1920x1080",
+        "duration_seconds": 9.905,
         "codec": "h264"
     },
     "analysis_configuration": {
         "sample_interval_seconds": 1,
-        "frames_analyzed": 23
+        "frames_analyzed": 10
     },
     "video_statistics": {
         "objects": {
-            "surfboard": 7,
-            "person": 7,
-            "cake": 1,
-            "book": 1,
-            "skateboard": 1,
-            "kite": 1
+            "person": 20
         },
         "top_tags": {
-            "bright": 23,
-            "general": 23,
-            "gray": 23,
-            "overexposed": 23,
-            "sharp": 23,
-            "white": 23,
-            "medium-contrast": 21,
-            "warm-tone": 15,
-            "orange": 13,
-            "black": 13,
-            "green": 12,
-            "red": 12,
-            "neutral-tone": 8,
-            "surfboard": 7,
-            "people---animals": 7,
-            "person": 7,
-            "blue": 6,
-            "low-noise": 2,
-            "high-contrast": 2,
-            "cake": 1,
-            "book": 1,
-            "kite": 1,
-            "skateboard": 1
+            "black": 10,
+            "general": 10,
+            "gray": 10,
+            "low-noise": 10,
+            "medium-contrast": 10,
+            "neutral-tone": 10,
+            "normal": 10,
+            "normally exposed": 10,
+            "people---animals": 10,
+            "person": 10,
+            "sharp": 10,
+            "red": 9
         },
-        "average_brightness": 220.27,
-        "average_contrast": 61.838,
-        "average_sharpness": 1599.142,
-        "average_cinematic_score": 68.045
+        "average_brightness": 113.477,
+        "average_contrast": 62.71,
+        "average_sharpness": 215.308,
+        "average_cinematic_score": 72.362
     },
-    "scene_changes": [
-        {
-            "frame_number": 480,
-            "timestamp_seconds": 16.0,
-            "difference_score": 45.775
-        }
-    ],
+    "scene_changes": [],
+    "annotated_video": "C:\\Users\\Avishek\\OneDrive\\Desktop\\Growfinix-Internship-Tasks\\Task-1-Automated-Media-Metadata\\output\\annotated_videos\\cinematic_video_annotated.mp4",
     "frames": [
         {
             "frame_number": 0,
             "timestamp_seconds": 0.0,
             "objects": [
                 {
-                    "object": "surfboard",
-                    "class_id": 37,
-                    "confidence": 0.5796,
-                    "confidence_level": "Low",
+                    "object": "person",
+                    "class_id": 0,
+                    "confidence": 0.9409,
+                    "confidence_level": "High",
                     "bbox": {
-                        "x1": 1326,
-                        "y1": 267,
-                        "x2": 1677,
-                        "y2": 516
+                        "x1": 31,
+                        "y1": 276,
+                        "x2": 906,
+                        "y2": 1068
                     },
-                    "area_percentage": 5.22
-                }
-            ],
-            "object_counts": {
-                "total_objects": 1,
-                "unique_object_classes": 1,
-                "object_counts": {
-                    "surfboard": 1
+                    "area_percentage": 33.42
                 },
-                "average_confidence": 0.5796,
-                "highest_confidence": 0.5796,
-                "lowest_confidence": 0.5796
-            },
-            "dominant_colors": [
-                {
-                    "name": "white",
-                    "rgb": [
-                        254,
-                        253,
-                        250
-                    ],
-                    "hex": "#FEFDFA",
-                    "hsv": {
-                        "h": 23,
-                        "s": 4,
-                        "v": 254
-                    },
-                    "percentage": 65.325
-                },
-                {
-                    "name": "gray",
-                    "rgb": [
-                        209,
-                        209,
-                        215
-                    ],
-                    "hex": "#D1D1D7",
-                    "hsv": {
-                        "h": 120,
-                        "s": 7,
-                        "v": 215
-                    },
-                    "percentage": 10.345
-                },
-                {
-                    "name": "red",
-                    "rgb": [
-                        181,
-                        1,
-                        29
-                    ],
-                    "hex": "#B5011D",
-                    "hsv": {
-                        "h": 175,
-                        "s": 254,
-                        "v": 181
-                    },
-                    "percentage": 5.455
-                },
-                {
-                    "name": "green",
-                    "rgb": [
-                        181,
-                        237,
-                        71
-                    ],
-                    "hex": "#B5ED47",
-                    "hsv": {
-                        "h": 40,
-                        "s": 179,
-                        "v": 237
-                    },
-                    "percentage": 4.84
-                },
-                {
-                    "name": "orange",
-                    "rgb": [
-                        185,
-                        92,
-                        19
-                    ],
-                    "hex": "#B95C13",
-                    "hsv": {
-                        "h": 13,
-                        "s": 229,
-                        "v": 185
-                    },
-                    "percentage": 4.84
-                },
-                {
-                    "name": "red",
-                    "rgb": [
-                        55,
-                        17,
-                        25
-                    ],
-                    "hex": "#371119",
-                    "hsv": {
-                        "h": 174,
-                        "s": 176,
-                        "v": 55
-                    },
-                    "percentage": 3.565
-                },
-                {
-                    "name": "yellow",
-                    "rgb": [
-                        236,
-                        162,
-                        6
-                    ],
-                    "hex": "#ECA206",
-                    "hsv": {
-                        "h": 20,
-                        "s": 249,
-                        "v": 236
-                    },
-                    "percentage": 2.96
-                },
-                {
-                    "name": "blue",
-                    "rgb": [
-                        110,
-                        138,
-                        168
-                    ],
-                    "hex": "#6E8AA8",
-                    "hsv": {
-                        "h": 106,
-                        "s": 88,
-                        "v": 168
-                    },
-                    "percentage": 2.67
-                }
-            ],
-            "color_characteristics": {
-                "average_saturation": 56.3,
-                "average_value": 233.312,
-                "saturation_level": "Low",
-                "color_temperature": "Warm"
-            },
-            "lighting": {
-                "brightness_score": 214.782,
-                "brightness_median": 255.0,
-                "shadow_ratio_percent": 2.982,
-                "highlight_ratio_percent": 69.066,
-                "lighting": "Bright",
-                "exposure": "Overexposed",
-                "lighting_quality": "Poor"
-            },
-            "contrast": {
-                "contrast_score": 66.91,
-                "minimum_intensity": 0,
-                "maximum_intensity": 255,
-                "dynamic_range": 255,
-                "contrast_level": "Medium"
-            },
-            "quality": {
-                "sharpness_score": 1306.608,
-                "blur_status": "Sharp",
-                "noise_score": 10.349,
-                "noise_level": "Medium"
-            },
-            "scene": {
-                "environment": "General",
-                "scene_type": "General"
-            },
-            "cinematic": {
-                "cinematic_score": 71.41,
-                "rating": "Good"
-            },
-            "tags": [
-                "bright",
-                "general",
-                "gray",
-                "green",
-                "medium-contrast",
-                "orange",
-                "overexposed",
-                "red",
-                "sharp",
-                "surfboard",
-                "warm-tone",
-                "white"
-            ]
-        },
-        {
-            "frame_number": 30,
-            "timestamp_seconds": 1.0,
-            "objects": [
-                {
-                    "object": "surfboard",
-                    "class_id": 37,
-                    "confidence": 0.5238,
-                    "confidence_level": "Low",
-                    "bbox": {
-                        "x1": 1325,
-                        "y1": 267,
-                        "x2": 1677,
-                        "y2": 516
-                    },
-                    "area_percentage": 5.235
-                }
-            ],
-            "object_counts": {
-                "total_objects": 1,
-                "unique_object_classes": 1,
-                "object_counts": {
-                    "surfboard": 1
-                },
-                "average_confidence": 0.5238,
-                "highest_confidence": 0.5238,
-                "lowest_confidence": 0.5238
-            },
-            "dominant_colors": [
-                {
-                    "name": "white",
-                    "rgb": [
-                        254,
-                        253,
-                        250
-                    ],
-                    "hex": "#FEFDFA",
-                    "hsv": {
-                        "h": 23,
-                        "s": 4,
-                        "v": 254
-                    },
-                    "percentage": 65.255
-                },
-                {
-                    "name": "gray",
-                    "rgb": [
-                        210,
-                        209,
-                        215
-                    ],
-                    "hex": "#D2D1D7",
-                    "hsv": {
-                        "h": 125,
-                        "s": 7,
-                        "v": 215
-                    },
-                    "percentage": 10.34
-                },
-                {
-                    "name": "red",
-                    "rgb": [
-                        181,
-                        1,
-                        29
-                    ],
-                    "hex": "#B5011D",
-                    "hsv": {
-                        "h": 175,
-                        "s": 254,
-                        "v": 181
-                    },
-                    "percentage": 5.435
-                },
-                {
-                    "name": "orange",
-                    "rgb": [
-                        185,
-                        92,
-                        19
-                    ],
-                    "hex": "#B95C13",
-                    "hsv": {
-                        "h": 13,
-                        "s": 229,
-                        "v": 185
-                    },
-                    "percentage": 4.885
-                },
-                {
-                    "name": "green",
-                    "rgb": [
-                        181,
-                        237,
-                        71
-                    ],
-                    "hex": "#B5ED47",
-                    "hsv": {
-                        "h": 40,
-                        "s": 179,
-                        "v": 237
-                    },
-                    "percentage": 4.82
-                },
-                {
-                    "name": "red",
-                    "rgb": [
-                        55,
-                        17,
-                        25
-                    ],
-                    "hex": "#371119",
-                    "hsv": {
-                        "h": 174,
-                        "s": 176,
-                        "v": 55
-                    },
-                    "percentage": 3.615
-                },
-                {
-                    "name": "yellow",
-                    "rgb": [
-                        236,
-                        162,
-                        7
-                    ],
-                    "hex": "#ECA207",
-                    "hsv": {
-                        "h": 20,
-                        "s": 247,
-                        "v": 236
-                    },
-                    "percentage": 2.95
-                },
-                {
-                    "name": "blue",
-                    "rgb": [
-                        111,
-                        138,
-                        169
-                    ],
-                    "hex": "#6F8AA9",
-                    "hsv": {
-                        "h": 106,
-                        "s": 88,
-                        "v": 169
-                    },
-                    "percentage": 2.7
-                }
-            ],
-            "color_characteristics": {
-                "average_saturation": 55.895,
-                "average_value": 233.291,
-                "saturation_level": "Low",
-                "color_temperature": "Warm"
-            },
-            "lighting": {
-                "brightness_score": 214.759,
-                "brightness_median": 255.0,
-                "shadow_ratio_percent": 2.98,
-                "highlight_ratio_percent": 69.046,
-                "lighting": "Bright",
-                "exposure": "Overexposed",
-                "lighting_quality": "Poor"
-            },
-            "contrast": {
-                "contrast_score": 66.943,
-                "minimum_intensity": 0,
-                "maximum_intensity": 255,
-                "dynamic_range": 255,
-                "contrast_level": "Medium"
-            },
-            "quality": {
-                "sharpness_score": 1317.03,
-                "blur_status": "Sharp",
-                "noise_score": 10.349,
-                "noise_level": "Medium"
-            },
-            "scene": {
-                "environment": "General",
-                "scene_type": "General"
-            },
-            "cinematic": {
-                "cinematic_score": 71.42,
-                "rating": "Good"
-            },
-            "tags": [
-                "bright",
-                "general",
-                "gray",
-                "green",
-                "medium-contrast",
-                "orange",
-                "overexposed",
-                "red",
-                "sharp",
-                "surfboard",
-                "warm-tone",
-                "white"
-            ]
-        },
-        {
-            "frame_number": 60,
-            "timestamp_seconds": 2.0,
-            "objects": [
-                {
-                    "object": "surfboard",
-                    "class_id": 37,
-                    "confidence": 0.4815,
-                    "confidence_level": "Low",
-                    "bbox": {
-                        "x1": 1326,
-                        "y1": 267,
-                        "x2": 1677,
-                        "y2": 516
-                    },
-                    "area_percentage": 5.22
-                }
-            ],
-            "object_counts": {
-                "total_objects": 1,
-                "unique_object_classes": 1,
-                "object_counts": {
-                    "surfboard": 1
-                },
-                "average_confidence": 0.4815,
-                "highest_confidence": 0.4815,
-                "lowest_confidence": 0.4815
-            },
-            "dominant_colors": [
-                {
-                    "name": "white",
-                    "rgb": [
-                        254,
-                        253,
-                        250
-                    ],
-                    "hex": "#FEFDFA",
-                    "hsv": {
-                        "h": 23,
-                        "s": 4,
-                        "v": 254
-                    },
-                    "percentage": 65.205
-                },
-                {
-                    "name": "gray",
-                    "rgb": [
-                        210,
-                        210,
-                        215
-                    ],
-                    "hex": "#D2D2D7",
-                    "hsv": {
-                        "h": 120,
-                        "s": 6,
-                        "v": 215
-                    },
-                    "percentage": 10.36
-                },
-                {
-                    "name": "red",
-                    "rgb": [
-                        181,
-                        1,
-                        29
-                    ],
-                    "hex": "#B5011D",
-                    "hsv": {
-                        "h": 175,
-                        "s": 254,
-                        "v": 181
-                    },
-                    "percentage": 5.435
-                },
-                {
-                    "name": "orange",
-                    "rgb": [
-                        185,
-                        92,
-                        19
-                    ],
-                    "hex": "#B95C13",
-                    "hsv": {
-                        "h": 13,
-                        "s": 229,
-                        "v": 185
-                    },
-                    "percentage": 4.875
-                },
-                {
-                    "name": "green",
-                    "rgb": [
-                        181,
-                        237,
-                        71
-                    ],
-                    "hex": "#B5ED47",
-                    "hsv": {
-                        "h": 40,
-                        "s": 179,
-                        "v": 237
-                    },
-                    "percentage": 4.825
-                },
-                {
-                    "name": "red",
-                    "rgb": [
-                        55,
-                        17,
-                        25
-                    ],
-                    "hex": "#371119",
-                    "hsv": {
-                        "h": 174,
-                        "s": 176,
-                        "v": 55
-                    },
-                    "percentage": 3.64
-                },
-                {
-                    "name": "yellow",
-                    "rgb": [
-                        236,
-                        162,
-                        6
-                    ],
-                    "hex": "#ECA206",
-                    "hsv": {
-                        "h": 20,
-                        "s": 249,
-                        "v": 236
-                    },
-                    "percentage": 2.945
-                },
-                {
-                    "name": "blue",
-                    "rgb": [
-                        111,
-                        139,
-                        169
-                    ],
-                    "hex": "#6F8BA9",
-                    "hsv": {
-                        "h": 106,
-                        "s": 88,
-                        "v": 169
-                    },
-                    "percentage": 2.715
-                }
-            ],
-            "color_characteristics": {
-                "average_saturation": 55.919,
-                "average_value": 233.202,
-                "saturation_level": "Low",
-                "color_temperature": "Warm"
-            },
-            "lighting": {
-                "brightness_score": 214.665,
-                "brightness_median": 255.0,
-                "shadow_ratio_percent": 2.985,
-                "highlight_ratio_percent": 68.988,
-                "lighting": "Bright",
-                "exposure": "Overexposed",
-                "lighting_quality": "Poor"
-            },
-            "contrast": {
-                "contrast_score": 67.017,
-                "minimum_intensity": 0,
-                "maximum_intensity": 255,
-                "dynamic_range": 255,
-                "contrast_level": "Medium"
-            },
-            "quality": {
-                "sharpness_score": 1334.728,
-                "blur_status": "Sharp",
-                "noise_score": 10.446,
-                "noise_level": "Medium"
-            },
-            "scene": {
-                "environment": "General",
-                "scene_type": "General"
-            },
-            "cinematic": {
-                "cinematic_score": 71.44,
-                "rating": "Good"
-            },
-            "tags": [
-                "bright",
-                "general",
-                "gray",
-                "green",
-                "medium-contrast",
-                "orange",
-                "overexposed",
-                "red",
-                "sharp",
-                "surfboard",
-                "warm-tone",
-                "white"
-            ]
-        },
-        {
-            "frame_number": 90,
-            "timestamp_seconds": 3.0,
-            "objects": [
-                {
-                    "object": "surfboard",
-                    "class_id": 37,
-                    "confidence": 0.543,
-                    "confidence_level": "Low",
-                    "bbox": {
-                        "x1": 1325,
-                        "y1": 267,
-                        "x2": 1677,
-                        "y2": 516
-                    },
-                    "area_percentage": 5.235
-                }
-            ],
-            "object_counts": {
-                "total_objects": 1,
-                "unique_object_classes": 1,
-                "object_counts": {
-                    "surfboard": 1
-                },
-                "average_confidence": 0.543,
-                "highest_confidence": 0.543,
-                "lowest_confidence": 0.543
-            },
-            "dominant_colors": [
-                {
-                    "name": "white",
-                    "rgb": [
-                        254,
-                        253,
-                        250
-                    ],
-                    "hex": "#FEFDFA",
-                    "hsv": {
-                        "h": 23,
-                        "s": 4,
-                        "v": 254
-                    },
-                    "percentage": 65.25
-                },
-                {
-                    "name": "gray",
-                    "rgb": [
-                        210,
-                        210,
-                        215
-                    ],
-                    "hex": "#D2D2D7",
-                    "hsv": {
-                        "h": 120,
-                        "s": 6,
-                        "v": 215
-                    },
-                    "percentage": 10.34
-                },
-                {
-                    "name": "red",
-                    "rgb": [
-                        181,
-                        1,
-                        29
-                    ],
-                    "hex": "#B5011D",
-                    "hsv": {
-                        "h": 175,
-                        "s": 254,
-                        "v": 181
-                    },
-                    "percentage": 5.435
-                },
-                {
-                    "name": "orange",
-                    "rgb": [
-                        185,
-                        92,
-                        19
-                    ],
-                    "hex": "#B95C13",
-                    "hsv": {
-                        "h": 13,
-                        "s": 229,
-                        "v": 185
-                    },
-                    "percentage": 4.885
-                },
-                {
-                    "name": "green",
-                    "rgb": [
-                        181,
-                        237,
-                        71
-                    ],
-                    "hex": "#B5ED47",
-                    "hsv": {
-                        "h": 40,
-                        "s": 179,
-                        "v": 237
-                    },
-                    "percentage": 4.825
-                },
-                {
-                    "name": "red",
-                    "rgb": [
-                        55,
-                        17,
-                        25
-                    ],
-                    "hex": "#371119",
-                    "hsv": {
-                        "h": 174,
-                        "s": 176,
-                        "v": 55
-                    },
-                    "percentage": 3.635
-                },
-                {
-                    "name": "yellow",
-                    "rgb": [
-                        236,
-                        162,
-                        6
-                    ],
-                    "hex": "#ECA206",
-                    "hsv": {
-                        "h": 20,
-                        "s": 249,
-                        "v": 236
-                    },
-                    "percentage": 2.945
-                },
-                {
-                    "name": "blue",
-                    "rgb": [
-                        111,
-                        139,
-                        170
-                    ],
-                    "hex": "#6F8BAA",
-                    "hsv": {
-                        "h": 106,
-                        "s": 89,
-                        "v": 170
-                    },
-                    "percentage": 2.685
-                }
-            ],
-            "color_characteristics": {
-                "average_saturation": 55.927,
-                "average_value": 233.247,
-                "saturation_level": "Low",
-                "color_temperature": "Warm"
-            },
-            "lighting": {
-                "brightness_score": 214.716,
-                "brightness_median": 255.0,
-                "shadow_ratio_percent": 3.002,
-                "highlight_ratio_percent": 69.035,
-                "lighting": "Bright",
-                "exposure": "Overexposed",
-                "lighting_quality": "Poor"
-            },
-            "contrast": {
-                "contrast_score": 67.015,
-                "minimum_intensity": 0,
-                "maximum_intensity": 255,
-                "dynamic_range": 255,
-                "contrast_level": "Medium"
-            },
-            "quality": {
-                "sharpness_score": 1325.153,
-                "blur_status": "Sharp",
-                "noise_score": 10.413,
-                "noise_level": "Medium"
-            },
-            "scene": {
-                "environment": "General",
-                "scene_type": "General"
-            },
-            "cinematic": {
-                "cinematic_score": 71.44,
-                "rating": "Good"
-            },
-            "tags": [
-                "bright",
-                "general",
-                "gray",
-                "green",
-                "medium-contrast",
-                "orange",
-                "overexposed",
-                "red",
-                "sharp",
-                "surfboard",
-                "warm-tone",
-                "white"
-            ]
-        },
-        {
-            "frame_number": 120,
-            "timestamp_seconds": 4.0,
-            "objects": [
-                {
-                    "object": "surfboard",
-                    "class_id": 37,
-                    "confidence": 0.5301,
-                    "confidence_level": "Low",
-                    "bbox": {
-                        "x1": 1325,
-                        "y1": 267,
-                        "x2": 1677,
-                        "y2": 516
-                    },
-                    "area_percentage": 5.235
-                }
-            ],
-            "object_counts": {
-                "total_objects": 1,
-                "unique_object_classes": 1,
-                "object_counts": {
-                    "surfboard": 1
-                },
-                "average_confidence": 0.5301,
-                "highest_confidence": 0.5301,
-                "lowest_confidence": 0.5301
-            },
-            "dominant_colors": [
-                {
-                    "name": "white",
-                    "rgb": [
-                        254,
-                        253,
-                        250
-                    ],
-                    "hex": "#FEFDFA",
-                    "hsv": {
-                        "h": 23,
-                        "s": 4,
-                        "v": 254
-                    },
-                    "percentage": 65.245
-                },
-                {
-                    "name": "gray",
-                    "rgb": [
-                        210,
-                        209,
-                        215
-                    ],
-                    "hex": "#D2D1D7",
-                    "hsv": {
-                        "h": 125,
-                        "s": 7,
-                        "v": 215
-                    },
-                    "percentage": 10.345
-                },
-                {
-                    "name": "red",
-                    "rgb": [
-                        181,
-                        1,
-                        29
-                    ],
-                    "hex": "#B5011D",
-                    "hsv": {
-                        "h": 175,
-                        "s": 254,
-                        "v": 181
-                    },
-                    "percentage": 5.435
-                },
-                {
-                    "name": "orange",
-                    "rgb": [
-                        185,
-                        92,
-                        19
-                    ],
-                    "hex": "#B95C13",
-                    "hsv": {
-                        "h": 13,
-                        "s": 229,
-                        "v": 185
-                    },
-                    "percentage": 4.88
-                },
-                {
-                    "name": "green",
-                    "rgb": [
-                        181,
-                        237,
-                        71
-                    ],
-                    "hex": "#B5ED47",
-                    "hsv": {
-                        "h": 40,
-                        "s": 179,
-                        "v": 237
-                    },
-                    "percentage": 4.825
-                },
-                {
-                    "name": "red",
-                    "rgb": [
-                        55,
-                        17,
-                        25
-                    ],
-                    "hex": "#371119",
-                    "hsv": {
-                        "h": 174,
-                        "s": 176,
-                        "v": 55
-                    },
-                    "percentage": 3.645
-                },
-                {
-                    "name": "yellow",
-                    "rgb": [
-                        236,
-                        162,
-                        6
-                    ],
-                    "hex": "#ECA206",
-                    "hsv": {
-                        "h": 20,
-                        "s": 249,
-                        "v": 236
-                    },
-                    "percentage": 2.945
-                },
-                {
-                    "name": "blue",
-                    "rgb": [
-                        111,
-                        139,
-                        169
-                    ],
-                    "hex": "#6F8BA9",
-                    "hsv": {
-                        "h": 106,
-                        "s": 88,
-                        "v": 169
-                    },
-                    "percentage": 2.68
-                }
-            ],
-            "color_characteristics": {
-                "average_saturation": 55.924,
-                "average_value": 233.256,
-                "saturation_level": "Low",
-                "color_temperature": "Warm"
-            },
-            "lighting": {
-                "brightness_score": 214.721,
-                "brightness_median": 255.0,
-                "shadow_ratio_percent": 2.985,
-                "highlight_ratio_percent": 69.035,
-                "lighting": "Bright",
-                "exposure": "Overexposed",
-                "lighting_quality": "Poor"
-            },
-            "contrast": {
-                "contrast_score": 66.998,
-                "minimum_intensity": 0,
-                "maximum_intensity": 255,
-                "dynamic_range": 255,
-                "contrast_level": "Medium"
-            },
-            "quality": {
-                "sharpness_score": 1332.251,
-                "blur_status": "Sharp",
-                "noise_score": 10.448,
-                "noise_level": "Medium"
-            },
-            "scene": {
-                "environment": "General",
-                "scene_type": "General"
-            },
-            "cinematic": {
-                "cinematic_score": 71.44,
-                "rating": "Good"
-            },
-            "tags": [
-                "bright",
-                "general",
-                "gray",
-                "green",
-                "medium-contrast",
-                "orange",
-                "overexposed",
-                "red",
-                "sharp",
-                "surfboard",
-                "warm-tone",
-                "white"
-            ]
-        },
-        {
-            "frame_number": 150,
-            "timestamp_seconds": 5.0,
-            "objects": [
-                {
-                    "object": "surfboard",
-                    "class_id": 37,
-                    "confidence": 0.5624,
-                    "confidence_level": "Low",
-                    "bbox": {
-                        "x1": 1325,
-                        "y1": 267,
-                        "x2": 1677,
-                        "y2": 516
-                    },
-                    "area_percentage": 5.235
-                }
-            ],
-            "object_counts": {
-                "total_objects": 1,
-                "unique_object_classes": 1,
-                "object_counts": {
-                    "surfboard": 1
-                },
-                "average_confidence": 0.5624,
-                "highest_confidence": 0.5624,
-                "lowest_confidence": 0.5624
-            },
-            "dominant_colors": [
-                {
-                    "name": "white",
-                    "rgb": [
-                        254,
-                        253,
-                        250
-                    ],
-                    "hex": "#FEFDFA",
-                    "hsv": {
-                        "h": 23,
-                        "s": 4,
-                        "v": 254
-                    },
-                    "percentage": 66.17
-                },
-                {
-                    "name": "gray",
-                    "rgb": [
-                        206,
-                        207,
-                        213
-                    ],
-                    "hex": "#CECFD5",
-                    "hsv": {
-                        "h": 116,
-                        "s": 8,
-                        "v": 213
-                    },
-                    "percentage": 10.31
-                },
-                {
-                    "name": "red",
-                    "rgb": [
-                        180,
-                        1,
-                        29
-                    ],
-                    "hex": "#B4011D",
-                    "hsv": {
-                        "h": 175,
-                        "s": 254,
-                        "v": 180
-                    },
-                    "percentage": 5.13
-                },
-                {
-                    "name": "orange",
-                    "rgb": [
-                        185,
-                        92,
-                        19
-                    ],
-                    "hex": "#B95C13",
-                    "hsv": {
-                        "h": 13,
-                        "s": 229,
-                        "v": 185
-                    },
-                    "percentage": 4.87
-                },
-                {
-                    "name": "green",
-                    "rgb": [
-                        181,
-                        237,
-                        71
-                    ],
-                    "hex": "#B5ED47",
-                    "hsv": {
-                        "h": 40,
-                        "s": 179,
-                        "v": 237
-                    },
-                    "percentage": 4.835
-                },
-                {
-                    "name": "red",
-                    "rgb": [
-                        55,
-                        14,
-                        22
-                    ],
-                    "hex": "#370E16",
-                    "hsv": {
-                        "h": 174,
-                        "s": 190,
-                        "v": 55
-                    },
-                    "percentage": 3.22
-                },
-                {
-                    "name": "yellow",
-                    "rgb": [
-                        236,
-                        162,
-                        7
-                    ],
-                    "hex": "#ECA207",
-                    "hsv": {
-                        "h": 20,
-                        "s": 247,
-                        "v": 236
-                    },
-                    "percentage": 2.945
-                },
-                {
-                    "name": "blue",
-                    "rgb": [
-                        108,
-                        139,
-                        168
-                    ],
-                    "hex": "#6C8BA8",
-                    "hsv": {
-                        "h": 105,
-                        "s": 91,
-                        "v": 168
-                    },
-                    "percentage": 2.52
-                }
-            ],
-            "color_characteristics": {
-                "average_saturation": 54.803,
-                "average_value": 234.131,
-                "saturation_level": "Low",
-                "color_temperature": "Warm"
-            },
-            "lighting": {
-                "brightness_score": 216.053,
-                "brightness_median": 255.0,
-                "shadow_ratio_percent": 2.891,
-                "highlight_ratio_percent": 69.438,
-                "lighting": "Bright",
-                "exposure": "Overexposed",
-                "lighting_quality": "Poor"
-            },
-            "contrast": {
-                "contrast_score": 65.449,
-                "minimum_intensity": 0,
-                "maximum_intensity": 255,
-                "dynamic_range": 255,
-                "contrast_level": "Medium"
-            },
-            "quality": {
-                "sharpness_score": 1240.696,
-                "blur_status": "Sharp",
-                "noise_score": 10.21,
-                "noise_level": "Medium"
-            },
-            "scene": {
-                "environment": "General",
-                "scene_type": "General"
-            },
-            "cinematic": {
-                "cinematic_score": 70.95,
-                "rating": "Good"
-            },
-            "tags": [
-                "bright",
-                "general",
-                "gray",
-                "green",
-                "medium-contrast",
-                "orange",
-                "overexposed",
-                "red",
-                "sharp",
-                "surfboard",
-                "warm-tone",
-                "white"
-            ]
-        },
-        {
-            "frame_number": 180,
-            "timestamp_seconds": 6.0,
-            "objects": [
-                {
-                    "object": "surfboard",
-                    "class_id": 37,
-                    "confidence": 0.5391,
-                    "confidence_level": "Low",
-                    "bbox": {
-                        "x1": 1326,
-                        "y1": 267,
-                        "x2": 1677,
-                        "y2": 516
-                    },
-                    "area_percentage": 5.22
-                }
-            ],
-            "object_counts": {
-                "total_objects": 1,
-                "unique_object_classes": 1,
-                "object_counts": {
-                    "surfboard": 1
-                },
-                "average_confidence": 0.5391,
-                "highest_confidence": 0.5391,
-                "lowest_confidence": 0.5391
-            },
-            "dominant_colors": [
-                {
-                    "name": "white",
-                    "rgb": [
-                        254,
-                        253,
-                        251
-                    ],
-                    "hex": "#FEFDFB",
-                    "hsv": {
-                        "h": 20,
-                        "s": 3,
-                        "v": 254
-                    },
-                    "percentage": 67.36
-                },
-                {
-                    "name": "gray",
-                    "rgb": [
-                        211,
-                        209,
-                        214
-                    ],
-                    "hex": "#D3D1D6",
-                    "hsv": {
-                        "h": 132,
-                        "s": 6,
-                        "v": 214
-                    },
-                    "percentage": 8.98
-                },
-                {
-                    "name": "red",
-                    "rgb": [
-                        182,
-                        1,
-                        30
-                    ],
-                    "hex": "#B6011E",
-                    "hsv": {
-                        "h": 175,
-                        "s": 254,
-                        "v": 182
-                    },
-                    "percentage": 5.445
-                },
-                {
-                    "name": "green",
-                    "rgb": [
-                        181,
-                        237,
-                        71
-                    ],
-                    "hex": "#B5ED47",
-                    "hsv": {
-                        "h": 40,
-                        "s": 179,
-                        "v": 237
-                    },
-                    "percentage": 4.845
-                },
-                {
-                    "name": "orange",
-                    "rgb": [
-                        186,
-                        92,
-                        17
-                    ],
-                    "hex": "#BA5C11",
-                    "hsv": {
-                        "h": 13,
-                        "s": 232,
-                        "v": 186
-                    },
-                    "percentage": 4.795
-                },
-                {
-                    "name": "red",
-                    "rgb": [
-                        56,
-                        14,
-                        23
-                    ],
-                    "hex": "#380E17",
-                    "hsv": {
-                        "h": 174,
-                        "s": 191,
-                        "v": 56
-                    },
-                    "percentage": 3.285
-                },
-                {
-                    "name": "yellow",
-                    "rgb": [
-                        236,
-                        163,
-                        7
-                    ],
-                    "hex": "#ECA307",
-                    "hsv": {
-                        "h": 20,
-                        "s": 247,
-                        "v": 236
-                    },
-                    "percentage": 2.93
-                },
-                {
-                    "name": "blue",
-                    "rgb": [
-                        125,
-                        140,
-                        164
-                    ],
-                    "hex": "#7D8CA4",
-                    "hsv": {
-                        "h": 108,
-                        "s": 61,
-                        "v": 164
-                    },
-                    "percentage": 2.36
-                }
-            ],
-            "color_characteristics": {
-                "average_saturation": 54.682,
-                "average_value": 234.808,
-                "saturation_level": "Low",
-                "color_temperature": "Warm"
-            },
-            "lighting": {
-                "brightness_score": 216.786,
-                "brightness_median": 255.0,
-                "shadow_ratio_percent": 2.948,
-                "highlight_ratio_percent": 70.622,
-                "lighting": "Bright",
-                "exposure": "Overexposed",
-                "lighting_quality": "Poor"
-            },
-            "contrast": {
-                "contrast_score": 65.991,
-                "minimum_intensity": 0,
-                "maximum_intensity": 255,
-                "dynamic_range": 255,
-                "contrast_level": "Medium"
-            },
-            "quality": {
-                "sharpness_score": 1144.56,
-                "blur_status": "Sharp",
-                "noise_score": 10.043,
-                "noise_level": "Medium"
-            },
-            "scene": {
-                "environment": "General",
-                "scene_type": "General"
-            },
-            "cinematic": {
-                "cinematic_score": 71.12,
-                "rating": "Good"
-            },
-            "tags": [
-                "bright",
-                "general",
-                "gray",
-                "green",
-                "medium-contrast",
-                "orange",
-                "overexposed",
-                "red",
-                "sharp",
-                "surfboard",
-                "warm-tone",
-                "white"
-            ]
-        },
-        {
-            "frame_number": 210,
-            "timestamp_seconds": 7.0,
-            "objects": [
                 {
                     "object": "person",
                     "class_id": 0,
-                    "confidence": 0.4659,
-                    "confidence_level": "Low",
+                    "confidence": 0.9331,
+                    "confidence_level": "High",
                     "bbox": {
-                        "x1": 1015,
-                        "y1": 465,
-                        "x2": 1263,
-                        "y2": 733
+                        "x1": 1139,
+                        "y1": 76,
+                        "x2": 1918,
+                        "y2": 1067
                     },
-                    "area_percentage": 3.97
+                    "area_percentage": 37.229
                 }
             ],
             "object_counts": {
-                "total_objects": 1,
+                "total_objects": 2,
                 "unique_object_classes": 1,
                 "object_counts": {
-                    "person": 1
+                    "person": 2
                 },
-                "average_confidence": 0.4659,
-                "highest_confidence": 0.4659,
-                "lowest_confidence": 0.4659
+                "average_confidence": 0.937,
+                "highest_confidence": 0.9409,
+                "lowest_confidence": 0.9331
             },
             "dominant_colors": [
                 {
-                    "name": "white",
-                    "rgb": [
-                        254,
-                        253,
-                        251
-                    ],
-                    "hex": "#FEFDFB",
-                    "hsv": {
-                        "h": 20,
-                        "s": 3,
-                        "v": 254
-                    },
-                    "percentage": 67.58
-                },
-                {
                     "name": "gray",
                     "rgb": [
-                        209,
-                        210,
-                        215
+                        164,
+                        170,
+                        166
                     ],
-                    "hex": "#D1D2D7",
+                    "hex": "#A4AAA6",
+                    "hsv": {
+                        "h": 70,
+                        "s": 9,
+                        "v": 170
+                    },
+                    "percentage": 22.98
+                },
+                {
+                    "name": "black",
+                    "rgb": [
+                        16,
+                        17,
+                        22
+                    ],
+                    "hex": "#101116",
                     "hsv": {
                         "h": 115,
+                        "s": 70,
+                        "v": 22
+                    },
+                    "percentage": 15.05
+                },
+                {
+                    "name": "gray",
+                    "rgb": [
+                        143,
+                        140,
+                        139
+                    ],
+                    "hex": "#8F8C8B",
+                    "hsv": {
+                        "h": 8,
                         "s": 7,
-                        "v": 215
+                        "v": 143
                     },
-                    "percentage": 9.71
+                    "percentage": 11.64
                 },
                 {
                     "name": "red",
                     "rgb": [
-                        181,
-                        1,
-                        29
+                        83,
+                        73,
+                        76
                     ],
-                    "hex": "#B5011D",
+                    "hex": "#53494C",
                     "hsv": {
-                        "h": 175,
-                        "s": 254,
-                        "v": 181
+                        "h": 171,
+                        "s": 31,
+                        "v": 83
                     },
-                    "percentage": 5.46
-                },
-                {
-                    "name": "green",
-                    "rgb": [
-                        181,
-                        237,
-                        71
-                    ],
-                    "hex": "#B5ED47",
-                    "hsv": {
-                        "h": 40,
-                        "s": 179,
-                        "v": 237
-                    },
-                    "percentage": 4.865
-                },
-                {
-                    "name": "orange",
-                    "rgb": [
-                        187,
-                        92,
-                        20
-                    ],
-                    "hex": "#BB5C14",
-                    "hsv": {
-                        "h": 13,
-                        "s": 228,
-                        "v": 187
-                    },
-                    "percentage": 4.49
-                },
-                {
-                    "name": "red",
-                    "rgb": [
-                        54,
-                        14,
-                        22
-                    ],
-                    "hex": "#360E16",
-                    "hsv": {
-                        "h": 174,
-                        "s": 189,
-                        "v": 54
-                    },
-                    "percentage": 3.045
-                },
-                {
-                    "name": "blue",
-                    "rgb": [
-                        110,
-                        139,
-                        170
-                    ],
-                    "hex": "#6E8BAA",
-                    "hsv": {
-                        "h": 106,
-                        "s": 90,
-                        "v": 170
-                    },
-                    "percentage": 2.64
-                },
-                {
-                    "name": "yellow",
-                    "rgb": [
-                        236,
-                        162,
-                        6
-                    ],
-                    "hex": "#ECA206",
-                    "hsv": {
-                        "h": 20,
-                        "s": 249,
-                        "v": 236
-                    },
-                    "percentage": 2.21
-                }
-            ],
-            "color_characteristics": {
-                "average_saturation": 52.299,
-                "average_value": 235.056,
-                "saturation_level": "Low",
-                "color_temperature": "Warm"
-            },
-            "lighting": {
-                "brightness_score": 217.625,
-                "brightness_median": 255.0,
-                "shadow_ratio_percent": 2.77,
-                "highlight_ratio_percent": 71.206,
-                "lighting": "Bright",
-                "exposure": "Overexposed",
-                "lighting_quality": "Poor"
-            },
-            "contrast": {
-                "contrast_score": 65.357,
-                "minimum_intensity": 0,
-                "maximum_intensity": 255,
-                "dynamic_range": 255,
-                "contrast_level": "Medium"
-            },
-            "quality": {
-                "sharpness_score": 1257.371,
-                "blur_status": "Sharp",
-                "noise_score": 10.262,
-                "noise_level": "Medium"
-            },
-            "scene": {
-                "environment": "General",
-                "scene_type": "People / Animals"
-            },
-            "cinematic": {
-                "cinematic_score": 70.92,
-                "rating": "Good"
-            },
-            "tags": [
-                "bright",
-                "general",
-                "gray",
-                "green",
-                "medium-contrast",
-                "orange",
-                "overexposed",
-                "people---animals",
-                "person",
-                "red",
-                "sharp",
-                "warm-tone",
-                "white"
-            ]
-        },
-        {
-            "frame_number": 240,
-            "timestamp_seconds": 8.0,
-            "objects": [
-                {
-                    "object": "person",
-                    "class_id": 0,
-                    "confidence": 0.7505,
-                    "confidence_level": "Medium",
-                    "bbox": {
-                        "x1": 634,
-                        "y1": 101,
-                        "x2": 863,
-                        "y2": 363
-                    },
-                    "area_percentage": 3.584
-                }
-            ],
-            "object_counts": {
-                "total_objects": 1,
-                "unique_object_classes": 1,
-                "object_counts": {
-                    "person": 1
-                },
-                "average_confidence": 0.7505,
-                "highest_confidence": 0.7505,
-                "lowest_confidence": 0.7505
-            },
-            "dominant_colors": [
-                {
-                    "name": "white",
-                    "rgb": [
-                        254,
-                        253,
-                        251
-                    ],
-                    "hex": "#FEFDFB",
-                    "hsv": {
-                        "h": 20,
-                        "s": 3,
-                        "v": 254
-                    },
-                    "percentage": 58.89
+                    "percentage": 11.515
                 },
                 {
                     "name": "gray",
-                    "rgb": [
-                        210,
-                        211,
-                        209
-                    ],
-                    "hex": "#D2D3D1",
-                    "hsv": {
-                        "h": 45,
-                        "s": 2,
-                        "v": 211
-                    },
-                    "percentage": 25.575
-                },
-                {
-                    "name": "orange",
-                    "rgb": [
-                        190,
-                        84,
-                        22
-                    ],
-                    "hex": "#BE5416",
-                    "hsv": {
-                        "h": 11,
-                        "s": 225,
-                        "v": 190
-                    },
-                    "percentage": 4.365
-                },
-                {
-                    "name": "green",
-                    "rgb": [
-                        180,
-                        239,
-                        69
-                    ],
-                    "hex": "#B4EF45",
-                    "hsv": {
-                        "h": 40,
-                        "s": 181,
-                        "v": 239
-                    },
-                    "percentage": 3.855
-                },
-                {
-                    "name": "orange",
-                    "rgb": [
-                        209,
-                        180,
-                        134
-                    ],
-                    "hex": "#D1B486",
-                    "hsv": {
-                        "h": 18,
-                        "s": 92,
-                        "v": 209
-                    },
-                    "percentage": 2.555
-                },
-                {
-                    "name": "blue",
-                    "rgb": [
-                        153,
-                        176,
-                        223
-                    ],
-                    "hex": "#99B0DF",
-                    "hsv": {
-                        "h": 110,
-                        "s": 80,
-                        "v": 223
-                    },
-                    "percentage": 1.91
-                },
-                {
-                    "name": "black",
-                    "rgb": [
-                        22,
-                        21,
-                        20
-                    ],
-                    "hex": "#161514",
-                    "hsv": {
-                        "h": 15,
-                        "s": 23,
-                        "v": 22
-                    },
-                    "percentage": 1.605
-                },
-                {
-                    "name": "cyan",
-                    "rgb": [
-                        68,
-                        125,
-                        163
-                    ],
-                    "hex": "#447DA3",
-                    "hsv": {
-                        "h": 102,
-                        "s": 149,
-                        "v": 163
-                    },
-                    "percentage": 1.245
-                }
-            ],
-            "color_characteristics": {
-                "average_saturation": 27.243,
-                "average_value": 234.27,
-                "saturation_level": "Low",
-                "color_temperature": "Neutral"
-            },
-            "lighting": {
-                "brightness_score": 226.27,
-                "brightness_median": 255.0,
-                "shadow_ratio_percent": 1.329,
-                "highlight_ratio_percent": 61.538,
-                "lighting": "Bright",
-                "exposure": "Overexposed",
-                "lighting_quality": "Poor"
-            },
-            "contrast": {
-                "contrast_score": 45.904,
-                "minimum_intensity": 0,
-                "maximum_intensity": 255,
-                "dynamic_range": 255,
-                "contrast_level": "Medium"
-            },
-            "quality": {
-                "sharpness_score": 598.125,
-                "blur_status": "Sharp",
-                "noise_score": 4.523,
-                "noise_level": "Low"
-            },
-            "scene": {
-                "environment": "General",
-                "scene_type": "People / Animals"
-            },
-            "cinematic": {
-                "cinematic_score": 59.84,
-                "rating": "Moderate"
-            },
-            "tags": [
-                "bright",
-                "general",
-                "gray",
-                "green",
-                "low-noise",
-                "medium-contrast",
-                "neutral-tone",
-                "orange",
-                "overexposed",
-                "people---animals",
-                "person",
-                "sharp",
-                "white"
-            ]
-        },
-        {
-            "frame_number": 270,
-            "timestamp_seconds": 9.0,
-            "objects": [
-                {
-                    "object": "person",
-                    "class_id": 0,
-                    "confidence": 0.5249,
-                    "confidence_level": "Low",
-                    "bbox": {
-                        "x1": 633,
-                        "y1": 0,
-                        "x2": 870,
-                        "y2": 131
-                    },
-                    "area_percentage": 1.854
-                }
-            ],
-            "object_counts": {
-                "total_objects": 1,
-                "unique_object_classes": 1,
-                "object_counts": {
-                    "person": 1
-                },
-                "average_confidence": 0.5249,
-                "highest_confidence": 0.5249,
-                "lowest_confidence": 0.5249
-            },
-            "dominant_colors": [
-                {
-                    "name": "white",
-                    "rgb": [
-                        254,
-                        253,
-                        250
-                    ],
-                    "hex": "#FEFDFA",
-                    "hsv": {
-                        "h": 23,
-                        "s": 4,
-                        "v": 254
-                    },
-                    "percentage": 56.1
-                },
-                {
-                    "name": "gray",
-                    "rgb": [
-                        210,
-                        209,
-                        207
-                    ],
-                    "hex": "#D2D1CF",
-                    "hsv": {
-                        "h": 20,
-                        "s": 4,
-                        "v": 210
-                    },
-                    "percentage": 23.725
-                },
-                {
-                    "name": "black",
-                    "rgb": [
-                        22,
-                        10,
-                        14
-                    ],
-                    "hex": "#160A0E",
-                    "hsv": {
-                        "h": 170,
-                        "s": 139,
-                        "v": 22
-                    },
-                    "percentage": 4.805
-                },
-                {
-                    "name": "orange",
                     "rgb": [
                         197,
-                        173,
-                        145
+                        208,
+                        203
                     ],
-                    "hex": "#C5AD91",
+                    "hex": "#C5D0CB",
                     "hsv": {
-                        "h": 16,
-                        "s": 67,
-                        "v": 197
+                        "h": 76,
+                        "s": 13,
+                        "v": 208
                     },
-                    "percentage": 4.385
-                },
-                {
-                    "name": "red",
-                    "rgb": [
-                        182,
-                        26,
-                        23
-                    ],
-                    "hex": "#B61A17",
-                    "hsv": {
-                        "h": 1,
-                        "s": 223,
-                        "v": 182
-                    },
-                    "percentage": 3.525
-                },
-                {
-                    "name": "green",
-                    "rgb": [
-                        180,
-                        238,
-                        71
-                    ],
-                    "hex": "#B4EE47",
-                    "hsv": {
-                        "h": 40,
-                        "s": 179,
-                        "v": 238
-                    },
-                    "percentage": 3.125
-                },
-                {
-                    "name": "yellow",
-                    "rgb": [
-                        234,
-                        162,
-                        7
-                    ],
-                    "hex": "#EAA207",
-                    "hsv": {
-                        "h": 20,
-                        "s": 247,
-                        "v": 234
-                    },
-                    "percentage": 2.67
-                },
-                {
-                    "name": "orange",
-                    "rgb": [
-                        106,
-                        99,
-                        91
-                    ],
-                    "hex": "#6A635B",
-                    "hsv": {
-                        "h": 16,
-                        "s": 36,
-                        "v": 106
-                    },
-                    "percentage": 1.665
-                }
-            ],
-            "color_characteristics": {
-                "average_saturation": 34.544,
-                "average_value": 224.638,
-                "saturation_level": "Low",
-                "color_temperature": "Warm"
-            },
-            "lighting": {
-                "brightness_score": 214.931,
-                "brightness_median": 255.0,
-                "shadow_ratio_percent": 4.573,
-                "highlight_ratio_percent": 56.966,
-                "lighting": "Bright",
-                "exposure": "Overexposed",
-                "lighting_quality": "Poor"
-            },
-            "contrast": {
-                "contrast_score": 63.056,
-                "minimum_intensity": 0,
-                "maximum_intensity": 255,
-                "dynamic_range": 255,
-                "contrast_level": "Medium"
-            },
-            "quality": {
-                "sharpness_score": 744.67,
-                "blur_status": "Sharp",
-                "noise_score": 5.156,
-                "noise_level": "Medium"
-            },
-            "scene": {
-                "environment": "General",
-                "scene_type": "People / Animals"
-            },
-            "cinematic": {
-                "cinematic_score": 70.2,
-                "rating": "Good"
-            },
-            "tags": [
-                "black",
-                "bright",
-                "general",
-                "gray",
-                "medium-contrast",
-                "orange",
-                "overexposed",
-                "people---animals",
-                "person",
-                "red",
-                "sharp",
-                "warm-tone",
-                "white"
-            ]
-        },
-        {
-            "frame_number": 300,
-            "timestamp_seconds": 10.0,
-            "objects": [
-                {
-                    "object": "person",
-                    "class_id": 0,
-                    "confidence": 0.5949,
-                    "confidence_level": "Low",
-                    "bbox": {
-                        "x1": 633,
-                        "y1": 0,
-                        "x2": 871,
-                        "y2": 131
-                    },
-                    "area_percentage": 1.862
-                }
-            ],
-            "object_counts": {
-                "total_objects": 1,
-                "unique_object_classes": 1,
-                "object_counts": {
-                    "person": 1
-                },
-                "average_confidence": 0.5949,
-                "highest_confidence": 0.5949,
-                "lowest_confidence": 0.5949
-            },
-            "dominant_colors": [
-                {
-                    "name": "white",
-                    "rgb": [
-                        254,
-                        253,
-                        250
-                    ],
-                    "hex": "#FEFDFA",
-                    "hsv": {
-                        "h": 23,
-                        "s": 4,
-                        "v": 254
-                    },
-                    "percentage": 56.03
-                },
-                {
-                    "name": "gray",
-                    "rgb": [
-                        210,
-                        209,
-                        207
-                    ],
-                    "hex": "#D2D1CF",
-                    "hsv": {
-                        "h": 20,
-                        "s": 4,
-                        "v": 210
-                    },
-                    "percentage": 23.7
-                },
-                {
-                    "name": "black",
-                    "rgb": [
-                        22,
-                        11,
-                        14
-                    ],
-                    "hex": "#160B0E",
-                    "hsv": {
-                        "h": 172,
-                        "s": 127,
-                        "v": 22
-                    },
-                    "percentage": 4.805
-                },
-                {
-                    "name": "orange",
-                    "rgb": [
-                        197,
-                        173,
-                        145
-                    ],
-                    "hex": "#C5AD91",
-                    "hsv": {
-                        "h": 16,
-                        "s": 67,
-                        "v": 197
-                    },
-                    "percentage": 4.405
-                },
-                {
-                    "name": "red",
-                    "rgb": [
-                        182,
-                        26,
-                        23
-                    ],
-                    "hex": "#B61A17",
-                    "hsv": {
-                        "h": 1,
-                        "s": 223,
-                        "v": 182
-                    },
-                    "percentage": 3.52
-                },
-                {
-                    "name": "green",
-                    "rgb": [
-                        180,
-                        238,
-                        70
-                    ],
-                    "hex": "#B4EE46",
-                    "hsv": {
-                        "h": 40,
-                        "s": 180,
-                        "v": 238
-                    },
-                    "percentage": 3.205
-                },
-                {
-                    "name": "yellow",
-                    "rgb": [
-                        234,
-                        162,
-                        7
-                    ],
-                    "hex": "#EAA207",
-                    "hsv": {
-                        "h": 20,
-                        "s": 247,
-                        "v": 234
-                    },
-                    "percentage": 2.675
-                },
-                {
-                    "name": "orange",
-                    "rgb": [
-                        106,
-                        98,
-                        91
-                    ],
-                    "hex": "#6A625B",
-                    "hsv": {
-                        "h": 14,
-                        "s": 36,
-                        "v": 106
-                    },
-                    "percentage": 1.66
-                }
-            ],
-            "color_characteristics": {
-                "average_saturation": 34.573,
-                "average_value": 224.588,
-                "saturation_level": "Low",
-                "color_temperature": "Warm"
-            },
-            "lighting": {
-                "brightness_score": 214.859,
-                "brightness_median": 255.0,
-                "shadow_ratio_percent": 4.587,
-                "highlight_ratio_percent": 56.85,
-                "lighting": "Bright",
-                "exposure": "Overexposed",
-                "lighting_quality": "Poor"
-            },
-            "contrast": {
-                "contrast_score": 63.085,
-                "minimum_intensity": 0,
-                "maximum_intensity": 255,
-                "dynamic_range": 255,
-                "contrast_level": "Medium"
-            },
-            "quality": {
-                "sharpness_score": 766.697,
-                "blur_status": "Sharp",
-                "noise_score": 5.226,
-                "noise_level": "Medium"
-            },
-            "scene": {
-                "environment": "General",
-                "scene_type": "People / Animals"
-            },
-            "cinematic": {
-                "cinematic_score": 70.21,
-                "rating": "Good"
-            },
-            "tags": [
-                "black",
-                "bright",
-                "general",
-                "gray",
-                "medium-contrast",
-                "orange",
-                "overexposed",
-                "people---animals",
-                "person",
-                "red",
-                "sharp",
-                "warm-tone",
-                "white"
-            ]
-        },
-        {
-            "frame_number": 330,
-            "timestamp_seconds": 11.0,
-            "objects": [
-                {
-                    "object": "person",
-                    "class_id": 0,
-                    "confidence": 0.5916,
-                    "confidence_level": "Low",
-                    "bbox": {
-                        "x1": 633,
-                        "y1": 0,
-                        "x2": 871,
-                        "y2": 131
-                    },
-                    "area_percentage": 1.862
-                }
-            ],
-            "object_counts": {
-                "total_objects": 1,
-                "unique_object_classes": 1,
-                "object_counts": {
-                    "person": 1
-                },
-                "average_confidence": 0.5916,
-                "highest_confidence": 0.5916,
-                "lowest_confidence": 0.5916
-            },
-            "dominant_colors": [
-                {
-                    "name": "white",
-                    "rgb": [
-                        254,
-                        253,
-                        250
-                    ],
-                    "hex": "#FEFDFA",
-                    "hsv": {
-                        "h": 23,
-                        "s": 4,
-                        "v": 254
-                    },
-                    "percentage": 55.725
-                },
-                {
-                    "name": "gray",
-                    "rgb": [
-                        210,
-                        209,
-                        207
-                    ],
-                    "hex": "#D2D1CF",
-                    "hsv": {
-                        "h": 20,
-                        "s": 4,
-                        "v": 210
-                    },
-                    "percentage": 23.675
-                },
-                {
-                    "name": "black",
-                    "rgb": [
-                        24,
-                        14,
-                        16
-                    ],
-                    "hex": "#180E10",
-                    "hsv": {
-                        "h": 174,
-                        "s": 106,
-                        "v": 24
-                    },
-                    "percentage": 5.145
-                },
-                {
-                    "name": "orange",
-                    "rgb": [
-                        199,
-                        175,
-                        146
-                    ],
-                    "hex": "#C7AF92",
-                    "hsv": {
-                        "h": 16,
-                        "s": 68,
-                        "v": 199
-                    },
-                    "percentage": 4.275
-                },
-                {
-                    "name": "red",
-                    "rgb": [
-                        182,
-                        26,
-                        23
-                    ],
-                    "hex": "#B61A17",
-                    "hsv": {
-                        "h": 1,
-                        "s": 223,
-                        "v": 182
-                    },
-                    "percentage": 3.53
-                },
-                {
-                    "name": "green",
-                    "rgb": [
-                        180,
-                        238,
-                        70
-                    ],
-                    "hex": "#B4EE46",
-                    "hsv": {
-                        "h": 40,
-                        "s": 180,
-                        "v": 238
-                    },
-                    "percentage": 3.205
-                },
-                {
-                    "name": "yellow",
-                    "rgb": [
-                        233,
-                        161,
-                        6
-                    ],
-                    "hex": "#E9A106",
-                    "hsv": {
-                        "h": 20,
-                        "s": 248,
-                        "v": 233
-                    },
-                    "percentage": 2.51
+                    "percentage": 10.705
                 },
                 {
                     "name": "gray",
                     "rgb": [
                         113,
-                        106,
-                        101
-                    ],
-                    "hex": "#716A65",
-                    "hsv": {
-                        "h": 13,
-                        "s": 27,
-                        "v": 113
-                    },
-                    "percentage": 1.935
-                }
-            ],
-            "color_characteristics": {
-                "average_saturation": 34.076,
-                "average_value": 223.825,
-                "saturation_level": "Low",
-                "color_temperature": "Warm"
-            },
-            "lighting": {
-                "brightness_score": 214.214,
-                "brightness_median": 255.0,
-                "shadow_ratio_percent": 4.535,
-                "highlight_ratio_percent": 56.591,
-                "lighting": "Bright",
-                "exposure": "Overexposed",
-                "lighting_quality": "Poor"
-            },
-            "contrast": {
-                "contrast_score": 63.698,
-                "minimum_intensity": 0,
-                "maximum_intensity": 255,
-                "dynamic_range": 255,
-                "contrast_level": "Medium"
-            },
-            "quality": {
-                "sharpness_score": 754.069,
-                "blur_status": "Sharp",
-                "noise_score": 5.068,
-                "noise_level": "Medium"
-            },
-            "scene": {
-                "environment": "General",
-                "scene_type": "People / Animals"
-            },
-            "cinematic": {
-                "cinematic_score": 70.41,
-                "rating": "Good"
-            },
-            "tags": [
-                "black",
-                "bright",
-                "general",
-                "gray",
-                "medium-contrast",
-                "orange",
-                "overexposed",
-                "people---animals",
-                "person",
-                "red",
-                "sharp",
-                "warm-tone",
-                "white"
-            ]
-        },
-        {
-            "frame_number": 360,
-            "timestamp_seconds": 12.0,
-            "objects": [
-                {
-                    "object": "person",
-                    "class_id": 0,
-                    "confidence": 0.5858,
-                    "confidence_level": "Low",
-                    "bbox": {
-                        "x1": 633,
-                        "y1": 0,
-                        "x2": 870,
-                        "y2": 131
-                    },
-                    "area_percentage": 1.854
-                }
-            ],
-            "object_counts": {
-                "total_objects": 1,
-                "unique_object_classes": 1,
-                "object_counts": {
-                    "person": 1
-                },
-                "average_confidence": 0.5858,
-                "highest_confidence": 0.5858,
-                "lowest_confidence": 0.5858
-            },
-            "dominant_colors": [
-                {
-                    "name": "white",
-                    "rgb": [
-                        254,
-                        253,
-                        250
-                    ],
-                    "hex": "#FEFDFA",
-                    "hsv": {
-                        "h": 23,
-                        "s": 4,
-                        "v": 254
-                    },
-                    "percentage": 56.03
-                },
-                {
-                    "name": "gray",
-                    "rgb": [
-                        210,
-                        209,
-                        207
-                    ],
-                    "hex": "#D2D1CF",
-                    "hsv": {
-                        "h": 20,
-                        "s": 4,
-                        "v": 210
-                    },
-                    "percentage": 23.7
-                },
-                {
-                    "name": "black",
-                    "rgb": [
-                        22,
-                        11,
-                        14
-                    ],
-                    "hex": "#160B0E",
-                    "hsv": {
-                        "h": 172,
-                        "s": 127,
-                        "v": 22
-                    },
-                    "percentage": 4.805
-                },
-                {
-                    "name": "orange",
-                    "rgb": [
-                        197,
-                        173,
-                        145
-                    ],
-                    "hex": "#C5AD91",
-                    "hsv": {
-                        "h": 16,
-                        "s": 67,
-                        "v": 197
-                    },
-                    "percentage": 4.405
-                },
-                {
-                    "name": "red",
-                    "rgb": [
-                        182,
-                        26,
-                        23
-                    ],
-                    "hex": "#B61A17",
-                    "hsv": {
-                        "h": 1,
-                        "s": 223,
-                        "v": 182
-                    },
-                    "percentage": 3.52
-                },
-                {
-                    "name": "green",
-                    "rgb": [
-                        180,
-                        238,
-                        70
-                    ],
-                    "hex": "#B4EE46",
-                    "hsv": {
-                        "h": 40,
-                        "s": 180,
-                        "v": 238
-                    },
-                    "percentage": 3.205
-                },
-                {
-                    "name": "yellow",
-                    "rgb": [
-                        234,
-                        162,
-                        7
-                    ],
-                    "hex": "#EAA207",
-                    "hsv": {
-                        "h": 20,
-                        "s": 247,
-                        "v": 234
-                    },
-                    "percentage": 2.675
-                },
-                {
-                    "name": "orange",
-                    "rgb": [
-                        106,
-                        98,
-                        91
-                    ],
-                    "hex": "#6A625B",
-                    "hsv": {
-                        "h": 14,
-                        "s": 36,
-                        "v": 106
-                    },
-                    "percentage": 1.66
-                }
-            ],
-            "color_characteristics": {
-                "average_saturation": 34.574,
-                "average_value": 224.591,
-                "saturation_level": "Low",
-                "color_temperature": "Warm"
-            },
-            "lighting": {
-                "brightness_score": 214.861,
-                "brightness_median": 255.0,
-                "shadow_ratio_percent": 4.587,
-                "highlight_ratio_percent": 56.857,
-                "lighting": "Bright",
-                "exposure": "Overexposed",
-                "lighting_quality": "Poor"
-            },
-            "contrast": {
-                "contrast_score": 63.087,
-                "minimum_intensity": 0,
-                "maximum_intensity": 255,
-                "dynamic_range": 255,
-                "contrast_level": "Medium"
-            },
-            "quality": {
-                "sharpness_score": 765.73,
-                "blur_status": "Sharp",
-                "noise_score": 5.211,
-                "noise_level": "Medium"
-            },
-            "scene": {
-                "environment": "General",
-                "scene_type": "People / Animals"
-            },
-            "cinematic": {
-                "cinematic_score": 70.21,
-                "rating": "Good"
-            },
-            "tags": [
-                "black",
-                "bright",
-                "general",
-                "gray",
-                "medium-contrast",
-                "orange",
-                "overexposed",
-                "people---animals",
-                "person",
-                "red",
-                "sharp",
-                "warm-tone",
-                "white"
-            ]
-        },
-        {
-            "frame_number": 390,
-            "timestamp_seconds": 13.0,
-            "objects": [
-                {
-                    "object": "cake",
-                    "class_id": 55,
-                    "confidence": 0.4933,
-                    "confidence_level": "Low",
-                    "bbox": {
-                        "x1": 1169,
-                        "y1": 258,
-                        "x2": 1489,
-                        "y2": 410
-                    },
-                    "area_percentage": 2.905
-                }
-            ],
-            "object_counts": {
-                "total_objects": 1,
-                "unique_object_classes": 1,
-                "object_counts": {
-                    "cake": 1
-                },
-                "average_confidence": 0.4933,
-                "highest_confidence": 0.4933,
-                "lowest_confidence": 0.4933
-            },
-            "dominant_colors": [
-                {
-                    "name": "white",
-                    "rgb": [
-                        253,
-                        253,
-                        251
-                    ],
-                    "hex": "#FDFDFB",
-                    "hsv": {
-                        "h": 30,
-                        "s": 2,
-                        "v": 253
-                    },
-                    "percentage": 45.65
-                },
-                {
-                    "name": "white",
-                    "rgb": [
-                        221,
-                        215,
-                        229
-                    ],
-                    "hex": "#DDD7E5",
-                    "hsv": {
-                        "h": 133,
-                        "s": 16,
-                        "v": 229
-                    },
-                    "percentage": 17.02
-                },
-                {
-                    "name": "green",
-                    "rgb": [
-                        180,
-                        239,
-                        67
-                    ],
-                    "hex": "#B4EF43",
-                    "hsv": {
-                        "h": 40,
-                        "s": 184,
-                        "v": 239
-                    },
-                    "percentage": 10.575
-                },
-                {
-                    "name": "black",
-                    "rgb": [
-                        29,
-                        13,
-                        18
-                    ],
-                    "hex": "#1D0D12",
-                    "hsv": {
-                        "h": 171,
-                        "s": 141,
-                        "v": 29
-                    },
-                    "percentage": 7.34
-                },
-                {
-                    "name": "gray",
-                    "rgb": [
-                        171,
-                        166,
-                        175
-                    ],
-                    "hex": "#ABA6AF",
-                    "hsv": {
-                        "h": 137,
-                        "s": 13,
-                        "v": 175
-                    },
-                    "percentage": 6.07
-                },
-                {
-                    "name": "red",
-                    "rgb": [
-                        172,
-                        8,
-                        28
-                    ],
-                    "hex": "#AC081C",
-                    "hsv": {
-                        "h": 176,
-                        "s": 243,
-                        "v": 172
-                    },
-                    "percentage": 5.81
-                },
-                {
-                    "name": "orange",
-                    "rgb": [
-                        223,
-                        147,
-                        7
-                    ],
-                    "hex": "#DF9307",
-                    "hsv": {
-                        "h": 19,
-                        "s": 247,
-                        "v": 223
-                    },
-                    "percentage": 4.84
-                },
-                {
-                    "name": "gray",
-                    "rgb": [
-                        105,
-                        99,
-                        108
-                    ],
-                    "hex": "#69636C",
-                    "hsv": {
-                        "h": 140,
-                        "s": 21,
-                        "v": 108
-                    },
-                    "percentage": 2.695
-                }
-            ],
-            "color_characteristics": {
-                "average_saturation": 65.938,
-                "average_value": 219.439,
-                "saturation_level": "Medium",
-                "color_temperature": "Warm"
-            },
-            "lighting": {
-                "brightness_score": 200.138,
-                "brightness_median": 229.0,
-                "shadow_ratio_percent": 6.789,
-                "highlight_ratio_percent": 54.323,
-                "lighting": "Bright",
-                "exposure": "Overexposed",
-                "lighting_quality": "Poor"
-            },
-            "contrast": {
-                "contrast_score": 73.212,
-                "minimum_intensity": 0,
-                "maximum_intensity": 255,
-                "dynamic_range": 255,
-                "contrast_level": "High"
-            },
-            "quality": {
-                "sharpness_score": 1103.123,
-                "blur_status": "Sharp",
-                "noise_score": 6.601,
-                "noise_level": "Medium"
-            },
-            "scene": {
-                "environment": "General",
-                "scene_type": "General"
-            },
-            "cinematic": {
-                "cinematic_score": 76.38,
-                "rating": "Good"
-            },
-            "tags": [
-                "black",
-                "bright",
-                "cake",
-                "general",
-                "gray",
-                "green",
-                "high-contrast",
-                "overexposed",
-                "sharp",
-                "warm-tone",
-                "white"
-            ]
-        },
-        {
-            "frame_number": 420,
-            "timestamp_seconds": 14.0,
-            "objects": [],
-            "object_counts": {
-                "total_objects": 0,
-                "unique_object_classes": 0,
-                "object_counts": {},
-                "average_confidence": 0,
-                "highest_confidence": 0,
-                "lowest_confidence": 0
-            },
-            "dominant_colors": [
-                {
-                    "name": "white",
-                    "rgb": [
-                        254,
-                        253,
-                        251
-                    ],
-                    "hex": "#FEFDFB",
-                    "hsv": {
-                        "h": 20,
-                        "s": 3,
-                        "v": 254
-                    },
-                    "percentage": 44.24
-                },
-                {
-                    "name": "white",
-                    "rgb": [
-                        220,
-                        215,
-                        230
-                    ],
-                    "hex": "#DCD7E6",
-                    "hsv": {
-                        "h": 130,
-                        "s": 17,
-                        "v": 230
-                    },
-                    "percentage": 17.915
-                },
-                {
-                    "name": "green",
-                    "rgb": [
-                        180,
-                        239,
-                        67
-                    ],
-                    "hex": "#B4EF43",
-                    "hsv": {
-                        "h": 40,
-                        "s": 184,
-                        "v": 239
-                    },
-                    "percentage": 11.2
-                },
-                {
-                    "name": "black",
-                    "rgb": [
-                        28,
-                        11,
-                        17
-                    ],
-                    "hex": "#1C0B11",
-                    "hsv": {
-                        "h": 169,
-                        "s": 155,
-                        "v": 28
-                    },
-                    "percentage": 7.225
-                },
-                {
-                    "name": "gray",
-                    "rgb": [
-                        168,
-                        163,
-                        175
-                    ],
-                    "hex": "#A8A3AF",
-                    "hsv": {
-                        "h": 133,
-                        "s": 17,
-                        "v": 175
-                    },
-                    "percentage": 6.075
-                },
-                {
-                    "name": "red",
-                    "rgb": [
-                        171,
-                        8,
-                        27
-                    ],
-                    "hex": "#AB081B",
-                    "hsv": {
-                        "h": 177,
-                        "s": 243,
-                        "v": 171
-                    },
-                    "percentage": 5.835
-                },
-                {
-                    "name": "yellow",
-                    "rgb": [
-                        222,
-                        147,
-                        6
-                    ],
-                    "hex": "#DE9306",
-                    "hsv": {
-                        "h": 20,
-                        "s": 248,
-                        "v": 222
-                    },
-                    "percentage": 4.865
-                },
-                {
-                    "name": "gray",
-                    "rgb": [
-                        102,
-                        96,
-                        104
-                    ],
-                    "hex": "#666068",
-                    "hsv": {
-                        "h": 143,
-                        "s": 20,
-                        "v": 104
-                    },
-                    "percentage": 2.645
-                }
-            ],
-            "color_characteristics": {
-                "average_saturation": 66.049,
-                "average_value": 219.4,
-                "saturation_level": "Medium",
-                "color_temperature": "Warm"
-            },
-            "lighting": {
-                "brightness_score": 199.643,
-                "brightness_median": 227.0,
-                "shadow_ratio_percent": 6.794,
-                "highlight_ratio_percent": 53.766,
-                "lighting": "Bright",
-                "exposure": "Overexposed",
-                "lighting_quality": "Poor"
-            },
-            "contrast": {
-                "contrast_score": 73.197,
-                "minimum_intensity": 0,
-                "maximum_intensity": 255,
-                "dynamic_range": 255,
-                "contrast_level": "High"
-            },
-            "quality": {
-                "sharpness_score": 1210.781,
-                "blur_status": "Sharp",
-                "noise_score": 6.988,
-                "noise_level": "Medium"
-            },
-            "scene": {
-                "environment": "General",
-                "scene_type": "General"
-            },
-            "cinematic": {
-                "cinematic_score": 76.37,
-                "rating": "Good"
-            },
-            "tags": [
-                "black",
-                "bright",
-                "general",
-                "gray",
-                "green",
-                "high-contrast",
-                "overexposed",
-                "sharp",
-                "warm-tone",
-                "white"
-            ]
-        },
-        {
-            "frame_number": 450,
-            "timestamp_seconds": 15.0,
-            "objects": [
-                {
-                    "object": "book",
-                    "class_id": 73,
-                    "confidence": 0.5296,
-                    "confidence_level": "Low",
-                    "bbox": {
-                        "x1": 0,
-                        "y1": 486,
-                        "x2": 24,
-                        "y2": 596
-                    },
-                    "area_percentage": 0.158
-                }
-            ],
-            "object_counts": {
-                "total_objects": 1,
-                "unique_object_classes": 1,
-                "object_counts": {
-                    "book": 1
-                },
-                "average_confidence": 0.5296,
-                "highest_confidence": 0.5296,
-                "lowest_confidence": 0.5296
-            },
-            "dominant_colors": [
-                {
-                    "name": "white",
-                    "rgb": [
-                        252,
-                        253,
-                        252
-                    ],
-                    "hex": "#FCFDFC",
-                    "hsv": {
-                        "h": 60,
-                        "s": 1,
-                        "v": 253
-                    },
-                    "percentage": 33.675
-                },
-                {
-                    "name": "green",
-                    "rgb": [
-                        179,
-                        238,
-                        66
-                    ],
-                    "hex": "#B3EE42",
-                    "hsv": {
-                        "h": 40,
-                        "s": 184,
-                        "v": 238
-                    },
-                    "percentage": 24.89
-                },
-                {
-                    "name": "white",
-                    "rgb": [
-                        231,
-                        229,
-                        241
-                    ],
-                    "hex": "#E7E5F1",
-                    "hsv": {
-                        "h": 125,
-                        "s": 13,
-                        "v": 241
-                    },
-                    "percentage": 18.505
-                },
-                {
-                    "name": "gray",
-                    "rgb": [
-                        205,
-                        204,
-                        211
-                    ],
-                    "hex": "#CDCCD3",
-                    "hsv": {
-                        "h": 124,
-                        "s": 8,
-                        "v": 211
-                    },
-                    "percentage": 11.975
-                },
-                {
-                    "name": "gray",
-                    "rgb": [
-                        167,
-                        164,
-                        178
-                    ],
-                    "hex": "#A7A4B2",
-                    "hsv": {
-                        "h": 126,
-                        "s": 20,
-                        "v": 178
-                    },
-                    "percentage": 4.12
-                },
-                {
-                    "name": "black",
-                    "rgb": [
-                        24,
-                        29,
-                        26
-                    ],
-                    "hex": "#181D1A",
-                    "hsv": {
-                        "h": 72,
-                        "s": 44,
-                        "v": 29
-                    },
-                    "percentage": 3.73
-                },
-                {
-                    "name": "green",
-                    "rgb": [
-                        203,
-                        246,
+                        111,
                         116
                     ],
-                    "hex": "#CBF674",
+                    "hex": "#716F74",
                     "hsv": {
-                        "h": 40,
-                        "s": 135,
-                        "v": 246
+                        "h": 132,
+                        "s": 11,
+                        "v": 116
                     },
-                    "percentage": 1.915
+                    "percentage": 10.205
+                },
+                {
+                    "name": "blue",
+                    "rgb": [
+                        43,
+                        43,
+                        52
+                    ],
+                    "hex": "#2B2B34",
+                    "hsv": {
+                        "h": 120,
+                        "s": 44,
+                        "v": 52
+                    },
+                    "percentage": 9.845
                 },
                 {
                     "name": "brown",
                     "rgb": [
-                        98,
-                        87,
-                        71
+                        128,
+                        85,
+                        66
                     ],
-                    "hex": "#625747",
+                    "hex": "#805542",
                     "hsv": {
-                        "h": 18,
-                        "s": 70,
-                        "v": 98
+                        "h": 9,
+                        "s": 124,
+                        "v": 128
                     },
-                    "percentage": 1.19
+                    "percentage": 8.06
                 }
             ],
             "color_characteristics": {
-                "average_saturation": 59.749,
-                "average_value": 230.634,
+                "average_saturation": 52.645,
+                "average_value": 123.297,
                 "saturation_level": "Low",
-                "color_temperature": "Warm"
+                "color_temperature": "Neutral"
             },
             "lighting": {
-                "brightness_score": 216.051,
-                "brightness_median": 224.0,
-                "shadow_ratio_percent": 3.148,
-                "highlight_ratio_percent": 52.259,
-                "lighting": "Bright",
-                "exposure": "Overexposed",
-                "lighting_quality": "Poor"
+                "brightness_score": 112.482,
+                "brightness_median": 116.0,
+                "shadow_ratio_percent": 18.351,
+                "highlight_ratio_percent": 1.729,
+                "lighting": "Normal",
+                "exposure": "Normally Exposed",
+                "lighting_quality": "Good"
             },
             "contrast": {
-                "contrast_score": 47.314,
+                "contrast_score": 61.466,
                 "minimum_intensity": 0,
-                "maximum_intensity": 255,
-                "dynamic_range": 255,
+                "maximum_intensity": 247,
+                "dynamic_range": 247,
                 "contrast_level": "Medium"
             },
             "quality": {
-                "sharpness_score": 362.328,
+                "sharpness_score": 196.87,
                 "blur_status": "Sharp",
-                "noise_score": 3.67,
+                "noise_score": 2.559,
                 "noise_level": "Low"
             },
             "scene": {
                 "environment": "General",
-                "scene_type": "General"
+                "scene_type": "People / Animals"
             },
             "cinematic": {
-                "cinematic_score": 58.4,
-                "rating": "Moderate"
+                "cinematic_score": 71.05,
+                "rating": "Good"
             },
             "tags": [
-                "book",
-                "bright",
+                "black",
                 "general",
                 "gray",
-                "green",
                 "low-noise",
                 "medium-contrast",
-                "overexposed",
-                "sharp",
-                "warm-tone",
-                "white"
+                "neutral-tone",
+                "normal",
+                "normally exposed",
+                "people---animals",
+                "person",
+                "red",
+                "sharp"
             ]
         },
         {
-            "frame_number": 480,
-            "timestamp_seconds": 16.0,
+            "frame_number": 24,
+            "timestamp_seconds": 0.999,
             "objects": [
                 {
                     "object": "person",
                     "class_id": 0,
-                    "confidence": 0.7611,
-                    "confidence_level": "Medium",
+                    "confidence": 0.9404,
+                    "confidence_level": "High",
                     "bbox": {
-                        "x1": 1162,
-                        "y1": 0,
-                        "x2": 1490,
-                        "y2": 265
+                        "x1": 32,
+                        "y1": 277,
+                        "x2": 906,
+                        "y2": 1069
                     },
-                    "area_percentage": 5.192
+                    "area_percentage": 33.382
                 },
                 {
-                    "object": "skateboard",
-                    "class_id": 36,
-                    "confidence": 0.6507,
-                    "confidence_level": "Medium",
+                    "object": "person",
+                    "class_id": 0,
+                    "confidence": 0.9369,
+                    "confidence_level": "High",
                     "bbox": {
-                        "x1": 460,
-                        "y1": 1,
-                        "x2": 701,
-                        "y2": 268
+                        "x1": 1142,
+                        "y1": 79,
+                        "x2": 1917,
+                        "y2": 1068
                     },
-                    "area_percentage": 3.843
-                },
-                {
-                    "object": "kite",
-                    "class_id": 33,
-                    "confidence": 0.4762,
-                    "confidence_level": "Low",
-                    "bbox": {
-                        "x1": 43,
-                        "y1": 3,
-                        "x2": 363,
-                        "y2": 266
-                    },
-                    "area_percentage": 5.027
+                    "area_percentage": 36.963
                 }
             ],
             "object_counts": {
-                "total_objects": 3,
-                "unique_object_classes": 3,
+                "total_objects": 2,
+                "unique_object_classes": 1,
                 "object_counts": {
-                    "person": 1,
-                    "skateboard": 1,
-                    "kite": 1
+                    "person": 2
                 },
-                "average_confidence": 0.6293,
-                "highest_confidence": 0.7611,
-                "lowest_confidence": 0.4762
+                "average_confidence": 0.9386,
+                "highest_confidence": 0.9404,
+                "lowest_confidence": 0.9369
             },
             "dominant_colors": [
                 {
-                    "name": "white",
+                    "name": "gray",
                     "rgb": [
-                        254,
-                        254,
-                        251
+                        164,
+                        170,
+                        166
                     ],
-                    "hex": "#FEFEFB",
+                    "hex": "#A4AAA6",
                     "hsv": {
-                        "h": 30,
-                        "s": 3,
-                        "v": 254
+                        "h": 70,
+                        "s": 9,
+                        "v": 170
                     },
-                    "percentage": 68.025
+                    "percentage": 22.885
+                },
+                {
+                    "name": "black",
+                    "rgb": [
+                        17,
+                        17,
+                        22
+                    ],
+                    "hex": "#111116",
+                    "hsv": {
+                        "h": 120,
+                        "s": 58,
+                        "v": 22
+                    },
+                    "percentage": 15.68
                 },
                 {
                     "name": "gray",
                     "rgb": [
-                        207,
-                        206,
-                        203
+                        143,
+                        140,
+                        140
                     ],
-                    "hex": "#CFCECB",
+                    "hex": "#8F8C8C",
                     "hsv": {
-                        "h": 23,
+                        "h": 0,
                         "s": 5,
-                        "v": 207
+                        "v": 143
                     },
-                    "percentage": 9.22
+                    "percentage": 11.98
                 },
                 {
-                    "name": "white",
+                    "name": "red",
                     "rgb": [
-                        227,
-                        231,
-                        231
+                        84,
+                        73,
+                        76
                     ],
-                    "hex": "#E3E7E7",
+                    "hex": "#54494C",
                     "hsv": {
-                        "h": 90,
-                        "s": 4,
-                        "v": 231
+                        "h": 172,
+                        "s": 33,
+                        "v": 84
                     },
-                    "percentage": 6.465
+                    "percentage": 11.03
+                },
+                {
+                    "name": "gray",
+                    "rgb": [
+                        197,
+                        208,
+                        204
+                    ],
+                    "hex": "#C5D0CC",
+                    "hsv": {
+                        "h": 79,
+                        "s": 13,
+                        "v": 208
+                    },
+                    "percentage": 10.835
+                },
+                {
+                    "name": "gray",
+                    "rgb": [
+                        112,
+                        111,
+                        117
+                    ],
+                    "hex": "#706F75",
+                    "hsv": {
+                        "h": 125,
+                        "s": 13,
+                        "v": 117
+                    },
+                    "percentage": 10.09
+                },
+                {
+                    "name": "blue",
+                    "rgb": [
+                        43,
+                        44,
+                        53
+                    ],
+                    "hex": "#2B2C35",
+                    "hsv": {
+                        "h": 117,
+                        "s": 48,
+                        "v": 53
+                    },
+                    "percentage": 9.65
+                },
+                {
+                    "name": "brown",
+                    "rgb": [
+                        129,
+                        85,
+                        66
+                    ],
+                    "hex": "#815542",
+                    "hsv": {
+                        "h": 9,
+                        "s": 125,
+                        "v": 129
+                    },
+                    "percentage": 7.85
+                }
+            ],
+            "color_characteristics": {
+                "average_saturation": 52.99,
+                "average_value": 123.083,
+                "saturation_level": "Low",
+                "color_temperature": "Neutral"
+            },
+            "lighting": {
+                "brightness_score": 112.217,
+                "brightness_median": 116.0,
+                "shadow_ratio_percent": 18.785,
+                "highlight_ratio_percent": 1.75,
+                "lighting": "Normal",
+                "exposure": "Normally Exposed",
+                "lighting_quality": "Good"
+            },
+            "contrast": {
+                "contrast_score": 61.824,
+                "minimum_intensity": 1,
+                "maximum_intensity": 248,
+                "dynamic_range": 247,
+                "contrast_level": "Medium"
+            },
+            "quality": {
+                "sharpness_score": 199.814,
+                "blur_status": "Sharp",
+                "noise_score": 2.637,
+                "noise_level": "Low"
+            },
+            "scene": {
+                "environment": "General",
+                "scene_type": "People / Animals"
+            },
+            "cinematic": {
+                "cinematic_score": 71.31,
+                "rating": "Good"
+            },
+            "tags": [
+                "black",
+                "general",
+                "gray",
+                "low-noise",
+                "medium-contrast",
+                "neutral-tone",
+                "normal",
+                "normally exposed",
+                "people---animals",
+                "person",
+                "red",
+                "sharp"
+            ]
+        },
+        {
+            "frame_number": 48,
+            "timestamp_seconds": 1.998,
+            "objects": [
+                {
+                    "object": "person",
+                    "class_id": 0,
+                    "confidence": 0.9506,
+                    "confidence_level": "High",
+                    "bbox": {
+                        "x1": 1112,
+                        "y1": 89,
+                        "x2": 1918,
+                        "y2": 1068
+                    },
+                    "area_percentage": 38.053
+                },
+                {
+                    "object": "person",
+                    "class_id": 0,
+                    "confidence": 0.9438,
+                    "confidence_level": "High",
+                    "bbox": {
+                        "x1": 33,
+                        "y1": 267,
+                        "x2": 909,
+                        "y2": 1069
+                    },
+                    "area_percentage": 33.881
+                }
+            ],
+            "object_counts": {
+                "total_objects": 2,
+                "unique_object_classes": 1,
+                "object_counts": {
+                    "person": 2
+                },
+                "average_confidence": 0.9472,
+                "highest_confidence": 0.9506,
+                "lowest_confidence": 0.9438
+            },
+            "dominant_colors": [
+                {
+                    "name": "gray",
+                    "rgb": [
+                        168,
+                        174,
+                        170
+                    ],
+                    "hex": "#A8AEAA",
+                    "hsv": {
+                        "h": 70,
+                        "s": 9,
+                        "v": 174
+                    },
+                    "percentage": 22.46
                 },
                 {
                     "name": "black",
                     "rgb": [
                         19,
-                        17,
-                        20
+                        20,
+                        27
                     ],
-                    "hex": "#131114",
+                    "hex": "#13141B",
                     "hsv": {
-                        "h": 140,
-                        "s": 38,
-                        "v": 20
+                        "h": 116,
+                        "s": 76,
+                        "v": 27
                     },
-                    "percentage": 6.06
+                    "percentage": 19.13
                 },
                 {
                     "name": "gray",
                     "rgb": [
-                        157,
-                        158,
-                        161
+                        147,
+                        144,
+                        144
                     ],
-                    "hex": "#9D9EA1",
+                    "hex": "#939090",
                     "hsv": {
-                        "h": 113,
-                        "s": 6,
-                        "v": 161
+                        "h": 0,
+                        "s": 5,
+                        "v": 147
                     },
-                    "percentage": 3.97
+                    "percentage": 11.61
+                },
+                {
+                    "name": "red",
+                    "rgb": [
+                        90,
+                        78,
+                        80
+                    ],
+                    "hex": "#5A4E50",
+                    "hsv": {
+                        "h": 175,
+                        "s": 34,
+                        "v": 90
+                    },
+                    "percentage": 11.45
                 },
                 {
                     "name": "gray",
                     "rgb": [
-                        56,
-                        56,
-                        50
+                        201,
+                        212,
+                        208
                     ],
-                    "hex": "#383832",
+                    "hex": "#C9D4D0",
                     "hsv": {
-                        "h": 30,
-                        "s": 27,
+                        "h": 79,
+                        "s": 13,
+                        "v": 212
+                    },
+                    "percentage": 10.085
+                },
+                {
+                    "name": "gray",
+                    "rgb": [
+                        114,
+                        115,
+                        122
+                    ],
+                    "hex": "#72737A",
+                    "hsv": {
+                        "h": 116,
+                        "s": 17,
+                        "v": 122
+                    },
+                    "percentage": 9.48
+                },
+                {
+                    "name": "blue",
+                    "rgb": [
+                        50,
+                        49,
+                        56
+                    ],
+                    "hex": "#323138",
+                    "hsv": {
+                        "h": 124,
+                        "s": 32,
                         "v": 56
                     },
-                    "percentage": 2.835
-                },
-                {
-                    "name": "cyan",
-                    "rgb": [
-                        84,
-                        103,
-                        114
-                    ],
-                    "hex": "#546772",
-                    "hsv": {
-                        "h": 101,
-                        "s": 67,
-                        "v": 114
-                    },
-                    "percentage": 1.945
+                    "percentage": 9.15
                 },
                 {
                     "name": "brown",
                     "rgb": [
-                        178,
-                        106,
-                        71
+                        135,
+                        86,
+                        64
                     ],
-                    "hex": "#B26A47",
+                    "hex": "#875640",
                     "hsv": {
-                        "h": 10,
-                        "s": 153,
-                        "v": 178
+                        "h": 9,
+                        "s": 134,
+                        "v": 135
                     },
-                    "percentage": 1.48
+                    "percentage": 6.635
                 }
             ],
             "color_characteristics": {
-                "average_saturation": 19.138,
-                "average_value": 223.863,
+                "average_saturation": 54.452,
+                "average_value": 123.409,
                 "saturation_level": "Low",
                 "color_temperature": "Neutral"
             },
             "lighting": {
-                "brightness_score": 220.117,
-                "brightness_median": 255.0,
-                "shadow_ratio_percent": 6.535,
-                "highlight_ratio_percent": 73.984,
-                "lighting": "Bright",
-                "exposure": "Overexposed",
-                "lighting_quality": "Poor"
+                "brightness_score": 112.393,
+                "brightness_median": 116.0,
+                "shadow_ratio_percent": 20.592,
+                "highlight_ratio_percent": 2.302,
+                "lighting": "Normal",
+                "exposure": "Normally Exposed",
+                "lighting_quality": "Good"
             },
             "contrast": {
-                "contrast_score": 68.515,
-                "minimum_intensity": 0,
-                "maximum_intensity": 255,
-                "dynamic_range": 255,
+                "contrast_score": 63.352,
+                "minimum_intensity": 1,
+                "maximum_intensity": 251,
+                "dynamic_range": 250,
                 "contrast_level": "Medium"
             },
             "quality": {
-                "sharpness_score": 3286.099,
+                "sharpness_score": 259.747,
                 "blur_status": "Sharp",
-                "noise_score": 14.895,
-                "noise_level": "Medium"
+                "noise_score": 3.207,
+                "noise_level": "Low"
             },
             "scene": {
                 "environment": "General",
                 "scene_type": "People / Animals"
             },
             "cinematic": {
-                "cinematic_score": 66.91,
+                "cinematic_score": 74.78,
                 "rating": "Good"
             },
             "tags": [
                 "black",
-                "bright",
                 "general",
                 "gray",
-                "kite",
+                "low-noise",
                 "medium-contrast",
                 "neutral-tone",
-                "overexposed",
+                "normal",
+                "normally exposed",
                 "people---animals",
                 "person",
-                "sharp",
-                "skateboard",
-                "white"
+                "red",
+                "sharp"
             ]
         },
         {
-            "frame_number": 510,
-            "timestamp_seconds": 17.0,
-            "objects": [],
+            "frame_number": 72,
+            "timestamp_seconds": 2.997,
+            "objects": [
+                {
+                    "object": "person",
+                    "class_id": 0,
+                    "confidence": 0.9511,
+                    "confidence_level": "High",
+                    "bbox": {
+                        "x1": 1100,
+                        "y1": 102,
+                        "x2": 1918,
+                        "y2": 1068
+                    },
+                    "area_percentage": 38.107
+                },
+                {
+                    "object": "person",
+                    "class_id": 0,
+                    "confidence": 0.9488,
+                    "confidence_level": "High",
+                    "bbox": {
+                        "x1": 32,
+                        "y1": 266,
+                        "x2": 907,
+                        "y2": 1069
+                    },
+                    "area_percentage": 33.884
+                }
+            ],
             "object_counts": {
-                "total_objects": 0,
-                "unique_object_classes": 0,
-                "object_counts": {},
-                "average_confidence": 0,
-                "highest_confidence": 0,
-                "lowest_confidence": 0
+                "total_objects": 2,
+                "unique_object_classes": 1,
+                "object_counts": {
+                    "person": 2
+                },
+                "average_confidence": 0.9499,
+                "highest_confidence": 0.9511,
+                "lowest_confidence": 0.9488
             },
             "dominant_colors": [
                 {
-                    "name": "white",
+                    "name": "gray",
                     "rgb": [
-                        254,
-                        254,
-                        251
+                        168,
+                        174,
+                        170
                     ],
-                    "hex": "#FEFEFB",
+                    "hex": "#A8AEAA",
                     "hsv": {
-                        "h": 30,
-                        "s": 3,
-                        "v": 254
+                        "h": 70,
+                        "s": 9,
+                        "v": 174
                     },
-                    "percentage": 84.565
+                    "percentage": 23.32
                 },
                 {
                     "name": "black",
                     "rgb": [
-                        20,
-                        15,
-                        17
+                        18,
+                        18,
+                        25
                     ],
-                    "hex": "#140F11",
+                    "hex": "#121219",
                     "hsv": {
-                        "h": 168,
-                        "s": 64,
-                        "v": 20
+                        "h": 120,
+                        "s": 71,
+                        "v": 25
                     },
-                    "percentage": 3.915
+                    "percentage": 17.845
+                },
+                {
+                    "name": "red",
+                    "rgb": [
+                        89,
+                        76,
+                        78
+                    ],
+                    "hex": "#594C4E",
+                    "hsv": {
+                        "h": 175,
+                        "s": 37,
+                        "v": 89
+                    },
+                    "percentage": 11.77
                 },
                 {
                     "name": "gray",
                     "rgb": [
-                        207,
-                        208,
-                        207
+                        146,
+                        142,
+                        143
                     ],
-                    "hex": "#CFD0CF",
+                    "hex": "#928E8F",
                     "hsv": {
-                        "h": 60,
-                        "s": 1,
-                        "v": 208
+                        "h": 173,
+                        "s": 7,
+                        "v": 146
                     },
-                    "percentage": 3.87
+                    "percentage": 11.345
                 },
                 {
-                    "name": "white",
+                    "name": "gray",
                     "rgb": [
-                        230,
-                        238,
-                        237
+                        202,
+                        213,
+                        209
                     ],
-                    "hex": "#E6EEED",
+                    "hex": "#CAD5D1",
                     "hsv": {
-                        "h": 86,
-                        "s": 9,
-                        "v": 238
+                        "h": 79,
+                        "s": 13,
+                        "v": 213
                     },
-                    "percentage": 2.945
+                    "percentage": 10.05
                 },
                 {
                     "name": "blue",
                     "rgb": [
-                        47,
-                        51,
+                        44,
+                        45,
+                        54
+                    ],
+                    "hex": "#2C2D36",
+                    "hsv": {
+                        "h": 117,
+                        "s": 47,
+                        "v": 54
+                    },
+                    "percentage": 9.605
+                },
+                {
+                    "name": "gray",
+                    "rgb": [
+                        113,
+                        114,
+                        121
+                    ],
+                    "hex": "#717279",
+                    "hsv": {
+                        "h": 116,
+                        "s": 17,
+                        "v": 121
+                    },
+                    "percentage": 9.435
+                },
+                {
+                    "name": "brown",
+                    "rgb": [
+                        136,
+                        86,
                         65
                     ],
-                    "hex": "#2F3341",
+                    "hex": "#885641",
                     "hsv": {
-                        "h": 113,
+                        "h": 9,
+                        "s": 133,
+                        "v": 136
+                    },
+                    "percentage": 6.63
+                }
+            ],
+            "color_characteristics": {
+                "average_saturation": 56.557,
+                "average_value": 123.934,
+                "saturation_level": "Low",
+                "color_temperature": "Neutral"
+            },
+            "lighting": {
+                "brightness_score": 112.549,
+                "brightness_median": 117.0,
+                "shadow_ratio_percent": 20.82,
+                "highlight_ratio_percent": 2.344,
+                "lighting": "Normal",
+                "exposure": "Normally Exposed",
+                "lighting_quality": "Good"
+            },
+            "contrast": {
+                "contrast_score": 63.771,
+                "minimum_intensity": 0,
+                "maximum_intensity": 251,
+                "dynamic_range": 251,
+                "contrast_level": "Medium"
+            },
+            "quality": {
+                "sharpness_score": 328.932,
+                "blur_status": "Sharp",
+                "noise_score": 3.868,
+                "noise_level": "Low"
+            },
+            "scene": {
+                "environment": "General",
+                "scene_type": "People / Animals"
+            },
+            "cinematic": {
+                "cinematic_score": 78.38,
+                "rating": "Good"
+            },
+            "tags": [
+                "black",
+                "general",
+                "gray",
+                "low-noise",
+                "medium-contrast",
+                "neutral-tone",
+                "normal",
+                "normally exposed",
+                "people---animals",
+                "person",
+                "red",
+                "sharp"
+            ]
+        },
+        {
+            "frame_number": 96,
+            "timestamp_seconds": 3.996,
+            "objects": [
+                {
+                    "object": "person",
+                    "class_id": 0,
+                    "confidence": 0.9552,
+                    "confidence_level": "High",
+                    "bbox": {
+                        "x1": 1108,
+                        "y1": 94,
+                        "x2": 1919,
+                        "y2": 1067
+                    },
+                    "area_percentage": 38.055
+                },
+                {
+                    "object": "person",
+                    "class_id": 0,
+                    "confidence": 0.9418,
+                    "confidence_level": "High",
+                    "bbox": {
+                        "x1": 32,
+                        "y1": 271,
+                        "x2": 906,
+                        "y2": 1069
+                    },
+                    "area_percentage": 33.635
+                }
+            ],
+            "object_counts": {
+                "total_objects": 2,
+                "unique_object_classes": 1,
+                "object_counts": {
+                    "person": 2
+                },
+                "average_confidence": 0.9485,
+                "highest_confidence": 0.9552,
+                "lowest_confidence": 0.9418
+            },
+            "dominant_colors": [
+                {
+                    "name": "gray",
+                    "rgb": [
+                        169,
+                        175,
+                        171
+                    ],
+                    "hex": "#A9AFAB",
+                    "hsv": {
+                        "h": 70,
+                        "s": 9,
+                        "v": 175
+                    },
+                    "percentage": 22.845
+                },
+                {
+                    "name": "black",
+                    "rgb": [
+                        19,
+                        20,
+                        27
+                    ],
+                    "hex": "#13141B",
+                    "hsv": {
+                        "h": 116,
+                        "s": 76,
+                        "v": 27
+                    },
+                    "percentage": 18.76
+                },
+                {
+                    "name": "gray",
+                    "rgb": [
+                        146,
+                        144,
+                        145
+                    ],
+                    "hex": "#929091",
+                    "hsv": {
+                        "h": 165,
+                        "s": 3,
+                        "v": 146
+                    },
+                    "percentage": 11.96
+                },
+                {
+                    "name": "red",
+                    "rgb": [
+                        90,
+                        79,
+                        81
+                    ],
+                    "hex": "#5A4F51",
+                    "hsv": {
+                        "h": 175,
+                        "s": 31,
+                        "v": 90
+                    },
+                    "percentage": 11.87
+                },
+                {
+                    "name": "gray",
+                    "rgb": [
+                        202,
+                        213,
+                        209
+                    ],
+                    "hex": "#CAD5D1",
+                    "hsv": {
+                        "h": 79,
+                        "s": 13,
+                        "v": 213
+                    },
+                    "percentage": 9.565
+                },
+                {
+                    "name": "gray",
+                    "rgb": [
+                        116,
+                        116,
+                        123
+                    ],
+                    "hex": "#74747B",
+                    "hsv": {
+                        "h": 120,
+                        "s": 15,
+                        "v": 123
+                    },
+                    "percentage": 9.455
+                },
+                {
+                    "name": "blue",
+                    "rgb": [
+                        49,
+                        49,
+                        57
+                    ],
+                    "hex": "#313139",
+                    "hsv": {
+                        "h": 120,
+                        "s": 36,
+                        "v": 57
+                    },
+                    "percentage": 8.925
+                },
+                {
+                    "name": "brown",
+                    "rgb": [
+                        136,
+                        86,
+                        65
+                    ],
+                    "hex": "#885641",
+                    "hsv": {
+                        "h": 9,
+                        "s": 133,
+                        "v": 136
+                    },
+                    "percentage": 6.62
+                }
+            ],
+            "color_characteristics": {
+                "average_saturation": 54.183,
+                "average_value": 124.223,
+                "saturation_level": "Low",
+                "color_temperature": "Neutral"
+            },
+            "lighting": {
+                "brightness_score": 113.041,
+                "brightness_median": 117.0,
+                "shadow_ratio_percent": 19.938,
+                "highlight_ratio_percent": 2.29,
+                "lighting": "Normal",
+                "exposure": "Normally Exposed",
+                "lighting_quality": "Good"
+            },
+            "contrast": {
+                "contrast_score": 63.007,
+                "minimum_intensity": 0,
+                "maximum_intensity": 251,
+                "dynamic_range": 251,
+                "contrast_level": "Medium"
+            },
+            "quality": {
+                "sharpness_score": 258.6,
+                "blur_status": "Sharp",
+                "noise_score": 3.287,
+                "noise_level": "Low"
+            },
+            "scene": {
+                "environment": "General",
+                "scene_type": "People / Animals"
+            },
+            "cinematic": {
+                "cinematic_score": 74.62,
+                "rating": "Good"
+            },
+            "tags": [
+                "black",
+                "general",
+                "gray",
+                "low-noise",
+                "medium-contrast",
+                "neutral-tone",
+                "normal",
+                "normally exposed",
+                "people---animals",
+                "person",
+                "red",
+                "sharp"
+            ]
+        },
+        {
+            "frame_number": 120,
+            "timestamp_seconds": 4.994,
+            "objects": [
+                {
+                    "object": "person",
+                    "class_id": 0,
+                    "confidence": 0.9372,
+                    "confidence_level": "High",
+                    "bbox": {
+                        "x1": 29,
+                        "y1": 278,
+                        "x2": 906,
+                        "y2": 1070
+                    },
+                    "area_percentage": 33.497
+                },
+                {
+                    "object": "person",
+                    "class_id": 0,
+                    "confidence": 0.933,
+                    "confidence_level": "High",
+                    "bbox": {
+                        "x1": 1151,
+                        "y1": 81,
+                        "x2": 1918,
+                        "y2": 1067
+                    },
+                    "area_percentage": 36.471
+                }
+            ],
+            "object_counts": {
+                "total_objects": 2,
+                "unique_object_classes": 1,
+                "object_counts": {
+                    "person": 2
+                },
+                "average_confidence": 0.9351,
+                "highest_confidence": 0.9372,
+                "lowest_confidence": 0.933
+            },
+            "dominant_colors": [
+                {
+                    "name": "gray",
+                    "rgb": [
+                        168,
+                        174,
+                        170
+                    ],
+                    "hex": "#A8AEAA",
+                    "hsv": {
+                        "h": 70,
+                        "s": 9,
+                        "v": 174
+                    },
+                    "percentage": 23.43
+                },
+                {
+                    "name": "black",
+                    "rgb": [
+                        19,
+                        20,
+                        26
+                    ],
+                    "hex": "#13141A",
+                    "hsv": {
+                        "h": 116,
+                        "s": 69,
+                        "v": 26
+                    },
+                    "percentage": 17.235
+                },
+                {
+                    "name": "gray",
+                    "rgb": [
+                        146,
+                        143,
+                        144
+                    ],
+                    "hex": "#928F90",
+                    "hsv": {
+                        "h": 170,
+                        "s": 5,
+                        "v": 146
+                    },
+                    "percentage": 11.225
+                },
+                {
+                    "name": "gray",
+                    "rgb": [
+                        201,
+                        212,
+                        207
+                    ],
+                    "hex": "#C9D4CF",
+                    "hsv": {
+                        "h": 76,
+                        "s": 13,
+                        "v": 212
+                    },
+                    "percentage": 11.025
+                },
+                {
+                    "name": "gray",
+                    "rgb": [
+                        88,
+                        78,
+                        82
+                    ],
+                    "hex": "#584E52",
+                    "hsv": {
+                        "h": 168,
+                        "s": 29,
+                        "v": 88
+                    },
+                    "percentage": 10.59
+                },
+                {
+                    "name": "gray",
+                    "rgb": [
+                        117,
+                        115,
+                        121
+                    ],
+                    "hex": "#757379",
+                    "hsv": {
+                        "h": 130,
+                        "s": 13,
+                        "v": 121
+                    },
+                    "percentage": 10.02
+                },
+                {
+                    "name": "blue",
+                    "rgb": [
+                        51,
+                        49,
+                        57
+                    ],
+                    "hex": "#333139",
+                    "hsv": {
+                        "h": 128,
+                        "s": 36,
+                        "v": 57
+                    },
+                    "percentage": 9.27
+                },
+                {
+                    "name": "brown",
+                    "rgb": [
+                        133,
+                        87,
+                        67
+                    ],
+                    "hex": "#855743",
+                    "hsv": {
+                        "h": 9,
+                        "s": 127,
+                        "v": 133
+                    },
+                    "percentage": 7.205
+                }
+            ],
+            "color_characteristics": {
+                "average_saturation": 51.464,
+                "average_value": 126.466,
+                "saturation_level": "Low",
+                "color_temperature": "Neutral"
+            },
+            "lighting": {
+                "brightness_score": 115.684,
+                "brightness_median": 120.0,
+                "shadow_ratio_percent": 18.429,
+                "highlight_ratio_percent": 2.389,
+                "lighting": "Normal",
+                "exposure": "Normally Exposed",
+                "lighting_quality": "Good"
+            },
+            "contrast": {
+                "contrast_score": 62.897,
+                "minimum_intensity": 1,
+                "maximum_intensity": 252,
+                "dynamic_range": 251,
+                "contrast_level": "Medium"
+            },
+            "quality": {
+                "sharpness_score": 174.415,
+                "blur_status": "Sharp",
+                "noise_score": 2.248,
+                "noise_level": "Low"
+            },
+            "scene": {
+                "environment": "General",
+                "scene_type": "People / Animals"
+            },
+            "cinematic": {
+                "cinematic_score": 70.38,
+                "rating": "Good"
+            },
+            "tags": [
+                "black",
+                "general",
+                "gray",
+                "low-noise",
+                "medium-contrast",
+                "neutral-tone",
+                "normal",
+                "normally exposed",
+                "people---animals",
+                "person",
+                "sharp"
+            ]
+        },
+        {
+            "frame_number": 144,
+            "timestamp_seconds": 5.993,
+            "objects": [
+                {
+                    "object": "person",
+                    "class_id": 0,
+                    "confidence": 0.9338,
+                    "confidence_level": "High",
+                    "bbox": {
+                        "x1": 30,
+                        "y1": 277,
+                        "x2": 910,
+                        "y2": 1070
+                    },
+                    "area_percentage": 33.654
+                },
+                {
+                    "object": "person",
+                    "class_id": 0,
+                    "confidence": 0.9054,
+                    "confidence_level": "High",
+                    "bbox": {
+                        "x1": 1142,
+                        "y1": 83,
+                        "x2": 1917,
+                        "y2": 1065
+                    },
+                    "area_percentage": 36.702
+                }
+            ],
+            "object_counts": {
+                "total_objects": 2,
+                "unique_object_classes": 1,
+                "object_counts": {
+                    "person": 2
+                },
+                "average_confidence": 0.9196,
+                "highest_confidence": 0.9338,
+                "lowest_confidence": 0.9054
+            },
+            "dominant_colors": [
+                {
+                    "name": "gray",
+                    "rgb": [
+                        168,
+                        175,
+                        172
+                    ],
+                    "hex": "#A8AFAC",
+                    "hsv": {
+                        "h": 77,
+                        "s": 10,
+                        "v": 175
+                    },
+                    "percentage": 23.975
+                },
+                {
+                    "name": "black",
+                    "rgb": [
+                        18,
+                        18,
+                        25
+                    ],
+                    "hex": "#121219",
+                    "hsv": {
+                        "h": 120,
                         "s": 71,
-                        "v": 65
+                        "v": 25
                     },
-                    "percentage": 1.395
+                    "percentage": 15.62
                 },
                 {
                     "name": "gray",
                     "rgb": [
-                        154,
-                        158,
-                        166
+                        117,
+                        113,
+                        118
                     ],
-                    "hex": "#9A9EA6",
+                    "hex": "#757176",
                     "hsv": {
-                        "h": 110,
-                        "s": 18,
-                        "v": 166
+                        "h": 144,
+                        "s": 11,
+                        "v": 118
                     },
-                    "percentage": 1.38
-                },
-                {
-                    "name": "cyan",
-                    "rgb": [
-                        74,
-                        101,
-                        120
-                    ],
-                    "hex": "#4A6578",
-                    "hsv": {
-                        "h": 102,
-                        "s": 98,
-                        "v": 120
-                    },
-                    "percentage": 1.235
-                },
-                {
-                    "name": "orange",
-                    "rgb": [
-                        185,
-                        124,
-                        70
-                    ],
-                    "hex": "#B97C46",
-                    "hsv": {
-                        "h": 14,
-                        "s": 159,
-                        "v": 185
-                    },
-                    "percentage": 0.695
-                }
-            ],
-            "color_characteristics": {
-                "average_saturation": 11.415,
-                "average_value": 238.777,
-                "saturation_level": "Low",
-                "color_temperature": "Neutral"
-            },
-            "lighting": {
-                "brightness_score": 236.839,
-                "brightness_median": 255.0,
-                "shadow_ratio_percent": 4.104,
-                "highlight_ratio_percent": 87.848,
-                "lighting": "Bright",
-                "exposure": "Overexposed",
-                "lighting_quality": "Poor"
-            },
-            "contrast": {
-                "contrast_score": 54.918,
-                "minimum_intensity": 0,
-                "maximum_intensity": 255,
-                "dynamic_range": 255,
-                "contrast_level": "Medium"
-            },
-            "quality": {
-                "sharpness_score": 2821.247,
-                "blur_status": "Sharp",
-                "noise_score": 14.385,
-                "noise_level": "Medium"
-            },
-            "scene": {
-                "environment": "General",
-                "scene_type": "General"
-            },
-            "cinematic": {
-                "cinematic_score": 62.66,
-                "rating": "Moderate"
-            },
-            "tags": [
-                "black",
-                "blue",
-                "bright",
-                "general",
-                "gray",
-                "medium-contrast",
-                "neutral-tone",
-                "overexposed",
-                "sharp",
-                "white"
-            ]
-        },
-        {
-            "frame_number": 540,
-            "timestamp_seconds": 18.0,
-            "objects": [],
-            "object_counts": {
-                "total_objects": 0,
-                "unique_object_classes": 0,
-                "object_counts": {},
-                "average_confidence": 0,
-                "highest_confidence": 0,
-                "lowest_confidence": 0
-            },
-            "dominant_colors": [
-                {
-                    "name": "white",
-                    "rgb": [
-                        254,
-                        254,
-                        251
-                    ],
-                    "hex": "#FEFEFB",
-                    "hsv": {
-                        "h": 30,
-                        "s": 3,
-                        "v": 254
-                    },
-                    "percentage": 84.545
-                },
-                {
-                    "name": "black",
-                    "rgb": [
-                        20,
-                        15,
-                        17
-                    ],
-                    "hex": "#140F11",
-                    "hsv": {
-                        "h": 168,
-                        "s": 64,
-                        "v": 20
-                    },
-                    "percentage": 3.915
+                    "percentage": 11.525
                 },
                 {
                     "name": "gray",
                     "rgb": [
-                        207,
-                        208,
-                        207
+                        146,
+                        143,
+                        143
                     ],
-                    "hex": "#CFD0CF",
+                    "hex": "#928F8F",
                     "hsv": {
-                        "h": 60,
-                        "s": 1,
-                        "v": 208
+                        "h": 0,
+                        "s": 5,
+                        "v": 146
                     },
-                    "percentage": 3.885
+                    "percentage": 11.3
                 },
                 {
-                    "name": "white",
+                    "name": "red",
                     "rgb": [
-                        230,
-                        238,
-                        238
+                        86,
+                        76,
+                        79
                     ],
-                    "hex": "#E6EEEE",
+                    "hex": "#564C4F",
                     "hsv": {
-                        "h": 90,
-                        "s": 9,
-                        "v": 238
+                        "h": 171,
+                        "s": 30,
+                        "v": 86
                     },
-                    "percentage": 2.955
+                    "percentage": 10.605
+                },
+                {
+                    "name": "gray",
+                    "rgb": [
+                        202,
+                        213,
+                        208
+                    ],
+                    "hex": "#CAD5D0",
+                    "hsv": {
+                        "h": 76,
+                        "s": 13,
+                        "v": 213
+                    },
+                    "percentage": 10.405
                 },
                 {
                     "name": "blue",
                     "rgb": [
-                        47,
-                        50,
-                        64
-                    ],
-                    "hex": "#2F3240",
-                    "hsv": {
-                        "h": 115,
-                        "s": 68,
-                        "v": 64
-                    },
-                    "percentage": 1.39
-                },
-                {
-                    "name": "gray",
-                    "rgb": [
-                        154,
-                        158,
-                        166
-                    ],
-                    "hex": "#9A9EA6",
-                    "hsv": {
-                        "h": 110,
-                        "s": 18,
-                        "v": 166
-                    },
-                    "percentage": 1.38
-                },
-                {
-                    "name": "cyan",
-                    "rgb": [
-                        74,
-                        101,
-                        120
-                    ],
-                    "hex": "#4A6578",
-                    "hsv": {
-                        "h": 102,
-                        "s": 98,
-                        "v": 120
-                    },
-                    "percentage": 1.235
-                },
-                {
-                    "name": "orange",
-                    "rgb": [
-                        185,
-                        124,
-                        70
-                    ],
-                    "hex": "#B97C46",
-                    "hsv": {
-                        "h": 14,
-                        "s": 159,
-                        "v": 185
-                    },
-                    "percentage": 0.695
-                }
-            ],
-            "color_characteristics": {
-                "average_saturation": 11.421,
-                "average_value": 238.774,
-                "saturation_level": "Low",
-                "color_temperature": "Neutral"
-            },
-            "lighting": {
-                "brightness_score": 236.834,
-                "brightness_median": 255.0,
-                "shadow_ratio_percent": 4.105,
-                "highlight_ratio_percent": 87.845,
-                "lighting": "Bright",
-                "exposure": "Overexposed",
-                "lighting_quality": "Poor"
-            },
-            "contrast": {
-                "contrast_score": 54.925,
-                "minimum_intensity": 0,
-                "maximum_intensity": 255,
-                "dynamic_range": 255,
-                "contrast_level": "Medium"
-            },
-            "quality": {
-                "sharpness_score": 2826.597,
-                "blur_status": "Sharp",
-                "noise_score": 14.388,
-                "noise_level": "Medium"
-            },
-            "scene": {
-                "environment": "General",
-                "scene_type": "General"
-            },
-            "cinematic": {
-                "cinematic_score": 62.66,
-                "rating": "Moderate"
-            },
-            "tags": [
-                "black",
-                "blue",
-                "bright",
-                "general",
-                "gray",
-                "medium-contrast",
-                "neutral-tone",
-                "overexposed",
-                "sharp",
-                "white"
-            ]
-        },
-        {
-            "frame_number": 570,
-            "timestamp_seconds": 19.0,
-            "objects": [],
-            "object_counts": {
-                "total_objects": 0,
-                "unique_object_classes": 0,
-                "object_counts": {},
-                "average_confidence": 0,
-                "highest_confidence": 0,
-                "lowest_confidence": 0
-            },
-            "dominant_colors": [
-                {
-                    "name": "white",
-                    "rgb": [
-                        254,
-                        254,
-                        251
-                    ],
-                    "hex": "#FEFEFB",
-                    "hsv": {
-                        "h": 30,
-                        "s": 3,
-                        "v": 254
-                    },
-                    "percentage": 84.58
-                },
-                {
-                    "name": "black",
-                    "rgb": [
-                        20,
-                        15,
-                        17
-                    ],
-                    "hex": "#140F11",
-                    "hsv": {
-                        "h": 168,
-                        "s": 64,
-                        "v": 20
-                    },
-                    "percentage": 3.895
-                },
-                {
-                    "name": "gray",
-                    "rgb": [
-                        207,
-                        208,
-                        207
-                    ],
-                    "hex": "#CFD0CF",
-                    "hsv": {
-                        "h": 60,
-                        "s": 1,
-                        "v": 208
-                    },
-                    "percentage": 3.865
-                },
-                {
-                    "name": "white",
-                    "rgb": [
-                        230,
-                        238,
-                        237
-                    ],
-                    "hex": "#E6EEED",
-                    "hsv": {
-                        "h": 86,
-                        "s": 9,
-                        "v": 238
-                    },
-                    "percentage": 2.95
-                },
-                {
-                    "name": "blue",
-                    "rgb": [
+                        45,
                         46,
-                        50,
-                        64
+                        55
                     ],
-                    "hex": "#2E3240",
+                    "hex": "#2D2E37",
                     "hsv": {
-                        "h": 113,
-                        "s": 72,
-                        "v": 64
+                        "h": 117,
+                        "s": 46,
+                        "v": 55
                     },
-                    "percentage": 1.375
+                    "percentage": 9.07
                 },
                 {
-                    "name": "gray",
+                    "name": "brown",
                     "rgb": [
-                        153,
-                        158,
-                        166
+                        132,
+                        87,
+                        67
                     ],
-                    "hex": "#999EA6",
+                    "hex": "#845743",
                     "hsv": {
-                        "h": 108,
-                        "s": 20,
-                        "v": 166
+                        "h": 9,
+                        "s": 126,
+                        "v": 132
                     },
-                    "percentage": 1.375
-                },
-                {
-                    "name": "cyan",
-                    "rgb": [
-                        74,
-                        101,
-                        119
-                    ],
-                    "hex": "#4A6577",
-                    "hsv": {
-                        "h": 102,
-                        "s": 96,
-                        "v": 119
-                    },
-                    "percentage": 1.265
-                },
-                {
-                    "name": "orange",
-                    "rgb": [
-                        185,
-                        124,
-                        70
-                    ],
-                    "hex": "#B97C46",
-                    "hsv": {
-                        "h": 14,
-                        "s": 159,
-                        "v": 185
-                    },
-                    "percentage": 0.695
+                    "percentage": 7.5
                 }
             ],
             "color_characteristics": {
-                "average_saturation": 11.422,
-                "average_value": 238.774,
+                "average_saturation": 51.399,
+                "average_value": 126.989,
                 "saturation_level": "Low",
                 "color_temperature": "Neutral"
             },
             "lighting": {
-                "brightness_score": 236.834,
-                "brightness_median": 255.0,
-                "shadow_ratio_percent": 4.105,
-                "highlight_ratio_percent": 87.845,
-                "lighting": "Bright",
-                "exposure": "Overexposed",
-                "lighting_quality": "Poor"
+                "brightness_score": 116.059,
+                "brightness_median": 120.0,
+                "shadow_ratio_percent": 17.782,
+                "highlight_ratio_percent": 2.316,
+                "lighting": "Normal",
+                "exposure": "Normally Exposed",
+                "lighting_quality": "Good"
             },
             "contrast": {
-                "contrast_score": 54.925,
-                "minimum_intensity": 0,
-                "maximum_intensity": 255,
-                "dynamic_range": 255,
+                "contrast_score": 62.372,
+                "minimum_intensity": 1,
+                "maximum_intensity": 252,
+                "dynamic_range": 251,
                 "contrast_level": "Medium"
             },
             "quality": {
-                "sharpness_score": 2826.643,
+                "sharpness_score": 152.398,
                 "blur_status": "Sharp",
-                "noise_score": 14.388,
-                "noise_level": "Medium"
+                "noise_score": 2.018,
+                "noise_level": "Low"
             },
             "scene": {
                 "environment": "General",
-                "scene_type": "General"
+                "scene_type": "People / Animals"
             },
             "cinematic": {
-                "cinematic_score": 62.66,
-                "rating": "Moderate"
+                "cinematic_score": 69.11,
+                "rating": "Good"
             },
             "tags": [
                 "black",
-                "blue",
-                "bright",
                 "general",
                 "gray",
+                "low-noise",
                 "medium-contrast",
                 "neutral-tone",
-                "overexposed",
-                "sharp",
-                "white"
+                "normal",
+                "normally exposed",
+                "people---animals",
+                "person",
+                "red",
+                "sharp"
             ]
         },
         {
-            "frame_number": 600,
-            "timestamp_seconds": 20.0,
-            "objects": [],
+            "frame_number": 168,
+            "timestamp_seconds": 6.992,
+            "objects": [
+                {
+                    "object": "person",
+                    "class_id": 0,
+                    "confidence": 0.9419,
+                    "confidence_level": "High",
+                    "bbox": {
+                        "x1": 28,
+                        "y1": 277,
+                        "x2": 909,
+                        "y2": 1070
+                    },
+                    "area_percentage": 33.692
+                },
+                {
+                    "object": "person",
+                    "class_id": 0,
+                    "confidence": 0.8947,
+                    "confidence_level": "High",
+                    "bbox": {
+                        "x1": 1140,
+                        "y1": 89,
+                        "x2": 1918,
+                        "y2": 1065
+                    },
+                    "area_percentage": 36.619
+                }
+            ],
             "object_counts": {
-                "total_objects": 0,
-                "unique_object_classes": 0,
-                "object_counts": {},
-                "average_confidence": 0,
-                "highest_confidence": 0,
-                "lowest_confidence": 0
+                "total_objects": 2,
+                "unique_object_classes": 1,
+                "object_counts": {
+                    "person": 2
+                },
+                "average_confidence": 0.9183,
+                "highest_confidence": 0.9419,
+                "lowest_confidence": 0.8947
             },
             "dominant_colors": [
                 {
-                    "name": "white",
+                    "name": "gray",
                     "rgb": [
-                        254,
-                        254,
-                        251
+                        168,
+                        174,
+                        170
                     ],
-                    "hex": "#FEFEFB",
+                    "hex": "#A8AEAA",
                     "hsv": {
-                        "h": 30,
-                        "s": 3,
-                        "v": 254
+                        "h": 70,
+                        "s": 9,
+                        "v": 174
                     },
-                    "percentage": 84.58
+                    "percentage": 23.805
                 },
                 {
                     "name": "black",
                     "rgb": [
-                        20,
-                        15,
-                        17
+                        18,
+                        18,
+                        24
                     ],
-                    "hex": "#140F11",
+                    "hex": "#121218",
                     "hsv": {
-                        "h": 168,
+                        "h": 120,
                         "s": 64,
-                        "v": 20
+                        "v": 24
                     },
-                    "percentage": 3.895
+                    "percentage": 15.57
                 },
                 {
                     "name": "gray",
                     "rgb": [
-                        207,
-                        208,
-                        207
+                        116,
+                        110,
+                        114
                     ],
-                    "hex": "#CFD0CF",
+                    "hex": "#746E72",
                     "hsv": {
-                        "h": 60,
-                        "s": 1,
-                        "v": 208
+                        "h": 160,
+                        "s": 13,
+                        "v": 116
                     },
-                    "percentage": 3.865
+                    "percentage": 11.5
                 },
                 {
-                    "name": "white",
+                    "name": "gray",
                     "rgb": [
-                        230,
-                        238,
-                        237
+                        145,
+                        141,
+                        140
                     ],
-                    "hex": "#E6EEED",
+                    "hex": "#918D8C",
                     "hsv": {
-                        "h": 86,
+                        "h": 6,
                         "s": 9,
-                        "v": 238
+                        "v": 145
                     },
-                    "percentage": 2.95
+                    "percentage": 11.245
+                },
+                {
+                    "name": "red",
+                    "rgb": [
+                        86,
+                        74,
+                        76
+                    ],
+                    "hex": "#564A4C",
+                    "hsv": {
+                        "h": 175,
+                        "s": 36,
+                        "v": 86
+                    },
+                    "percentage": 10.855
+                },
+                {
+                    "name": "gray",
+                    "rgb": [
+                        201,
+                        212,
+                        207
+                    ],
+                    "hex": "#C9D4CF",
+                    "hsv": {
+                        "h": 76,
+                        "s": 13,
+                        "v": 212
+                    },
+                    "percentage": 10.525
                 },
                 {
                     "name": "blue",
                     "rgb": [
-                        46,
-                        50,
-                        64
+                        44,
+                        45,
+                        54
                     ],
-                    "hex": "#2E3240",
+                    "hex": "#2C2D36",
                     "hsv": {
-                        "h": 113,
-                        "s": 72,
-                        "v": 64
+                        "h": 117,
+                        "s": 47,
+                        "v": 54
                     },
-                    "percentage": 1.375
+                    "percentage": 9.225
                 },
                 {
-                    "name": "gray",
+                    "name": "brown",
                     "rgb": [
-                        153,
-                        158,
-                        166
+                        133,
+                        87,
+                        66
                     ],
-                    "hex": "#999EA6",
+                    "hex": "#855742",
                     "hsv": {
-                        "h": 108,
-                        "s": 20,
-                        "v": 166
+                        "h": 9,
+                        "s": 128,
+                        "v": 133
                     },
-                    "percentage": 1.375
-                },
-                {
-                    "name": "cyan",
-                    "rgb": [
-                        74,
-                        101,
-                        119
-                    ],
-                    "hex": "#4A6577",
-                    "hsv": {
-                        "h": 102,
-                        "s": 96,
-                        "v": 119
-                    },
-                    "percentage": 1.265
-                },
-                {
-                    "name": "orange",
-                    "rgb": [
-                        185,
-                        124,
-                        70
-                    ],
-                    "hex": "#B97C46",
-                    "hsv": {
-                        "h": 14,
-                        "s": 159,
-                        "v": 185
-                    },
-                    "percentage": 0.695
+                    "percentage": 7.275
                 }
             ],
             "color_characteristics": {
-                "average_saturation": 11.422,
-                "average_value": 238.774,
+                "average_saturation": 52.575,
+                "average_value": 126.121,
                 "saturation_level": "Low",
                 "color_temperature": "Neutral"
             },
             "lighting": {
-                "brightness_score": 236.834,
-                "brightness_median": 255.0,
-                "shadow_ratio_percent": 4.105,
-                "highlight_ratio_percent": 87.845,
-                "lighting": "Bright",
-                "exposure": "Overexposed",
-                "lighting_quality": "Poor"
+                "brightness_score": 115.193,
+                "brightness_median": 117.0,
+                "shadow_ratio_percent": 17.998,
+                "highlight_ratio_percent": 2.218,
+                "lighting": "Normal",
+                "exposure": "Normally Exposed",
+                "lighting_quality": "Good"
             },
             "contrast": {
-                "contrast_score": 54.925,
+                "contrast_score": 62.42,
                 "minimum_intensity": 0,
-                "maximum_intensity": 255,
-                "dynamic_range": 255,
+                "maximum_intensity": 251,
+                "dynamic_range": 251,
                 "contrast_level": "Medium"
             },
             "quality": {
-                "sharpness_score": 2826.643,
+                "sharpness_score": 181.535,
                 "blur_status": "Sharp",
-                "noise_score": 14.388,
-                "noise_level": "Medium"
+                "noise_score": 2.342,
+                "noise_level": "Low"
             },
             "scene": {
                 "environment": "General",
-                "scene_type": "General"
+                "scene_type": "People / Animals"
             },
             "cinematic": {
-                "cinematic_score": 62.66,
-                "rating": "Moderate"
+                "cinematic_score": 70.58,
+                "rating": "Good"
             },
             "tags": [
                 "black",
-                "blue",
-                "bright",
                 "general",
                 "gray",
+                "low-noise",
                 "medium-contrast",
                 "neutral-tone",
-                "overexposed",
-                "sharp",
-                "white"
+                "normal",
+                "normally exposed",
+                "people---animals",
+                "person",
+                "red",
+                "sharp"
             ]
         },
         {
-            "frame_number": 630,
-            "timestamp_seconds": 21.0,
-            "objects": [],
+            "frame_number": 192,
+            "timestamp_seconds": 7.991,
+            "objects": [
+                {
+                    "object": "person",
+                    "class_id": 0,
+                    "confidence": 0.9439,
+                    "confidence_level": "High",
+                    "bbox": {
+                        "x1": 26,
+                        "y1": 274,
+                        "x2": 909,
+                        "y2": 1070
+                    },
+                    "area_percentage": 33.896
+                },
+                {
+                    "object": "person",
+                    "class_id": 0,
+                    "confidence": 0.9347,
+                    "confidence_level": "High",
+                    "bbox": {
+                        "x1": 1085,
+                        "y1": 103,
+                        "x2": 1918,
+                        "y2": 1066
+                    },
+                    "area_percentage": 38.685
+                }
+            ],
             "object_counts": {
-                "total_objects": 0,
-                "unique_object_classes": 0,
-                "object_counts": {},
-                "average_confidence": 0,
-                "highest_confidence": 0,
-                "lowest_confidence": 0
+                "total_objects": 2,
+                "unique_object_classes": 1,
+                "object_counts": {
+                    "person": 2
+                },
+                "average_confidence": 0.9393,
+                "highest_confidence": 0.9439,
+                "lowest_confidence": 0.9347
             },
             "dominant_colors": [
                 {
-                    "name": "white",
+                    "name": "gray",
                     "rgb": [
-                        254,
-                        254,
-                        251
+                        168,
+                        175,
+                        171
                     ],
-                    "hex": "#FEFEFB",
+                    "hex": "#A8AFAB",
                     "hsv": {
-                        "h": 30,
-                        "s": 3,
-                        "v": 254
+                        "h": 73,
+                        "s": 10,
+                        "v": 175
                     },
-                    "percentage": 84.58
+                    "percentage": 23.46
                 },
                 {
                     "name": "black",
                     "rgb": [
-                        20,
-                        15,
-                        17
+                        17,
+                        17,
+                        23
                     ],
-                    "hex": "#140F11",
+                    "hex": "#111117",
                     "hsv": {
-                        "h": 168,
-                        "s": 64,
-                        "v": 20
+                        "h": 120,
+                        "s": 67,
+                        "v": 23
                     },
-                    "percentage": 3.895
+                    "percentage": 16.605
+                },
+                {
+                    "name": "red",
+                    "rgb": [
+                        88,
+                        76,
+                        78
+                    ],
+                    "hex": "#584C4E",
+                    "hsv": {
+                        "h": 175,
+                        "s": 35,
+                        "v": 88
+                    },
+                    "percentage": 12.67
                 },
                 {
                     "name": "gray",
                     "rgb": [
-                        207,
-                        208,
-                        207
+                        117,
+                        113,
+                        116
                     ],
-                    "hex": "#CFD0CF",
+                    "hex": "#757174",
                     "hsv": {
-                        "h": 60,
-                        "s": 1,
-                        "v": 208
+                        "h": 158,
+                        "s": 9,
+                        "v": 117
                     },
-                    "percentage": 3.865
+                    "percentage": 10.8
                 },
                 {
-                    "name": "white",
+                    "name": "gray",
                     "rgb": [
-                        230,
-                        238,
-                        237
+                        147,
+                        144,
+                        142
                     ],
-                    "hex": "#E6EEED",
+                    "hex": "#93908E",
                     "hsv": {
-                        "h": 86,
+                        "h": 12,
                         "s": 9,
-                        "v": 238
+                        "v": 147
                     },
-                    "percentage": 2.95
+                    "percentage": 10.51
                 },
                 {
                     "name": "blue",
                     "rgb": [
+                        44,
                         46,
-                        50,
-                        64
+                        54
                     ],
-                    "hex": "#2E3240",
+                    "hex": "#2C2E36",
                     "hsv": {
-                        "h": 113,
-                        "s": 72,
-                        "v": 64
+                        "h": 114,
+                        "s": 47,
+                        "v": 54
                     },
-                    "percentage": 1.375
+                    "percentage": 9.63
                 },
                 {
                     "name": "gray",
                     "rgb": [
-                        153,
-                        158,
-                        166
+                        202,
+                        213,
+                        208
                     ],
-                    "hex": "#999EA6",
+                    "hex": "#CAD5D0",
                     "hsv": {
-                        "h": 108,
-                        "s": 20,
-                        "v": 166
+                        "h": 76,
+                        "s": 13,
+                        "v": 213
                     },
-                    "percentage": 1.375
+                    "percentage": 9.31
                 },
                 {
-                    "name": "cyan",
+                    "name": "brown",
                     "rgb": [
-                        74,
-                        101,
-                        119
+                        134,
+                        87,
+                        65
                     ],
-                    "hex": "#4A6577",
+                    "hex": "#865741",
                     "hsv": {
-                        "h": 102,
-                        "s": 96,
-                        "v": 119
+                        "h": 10,
+                        "s": 131,
+                        "v": 134
                     },
-                    "percentage": 1.265
-                },
-                {
-                    "name": "orange",
-                    "rgb": [
-                        185,
-                        124,
-                        70
-                    ],
-                    "hex": "#B97C46",
-                    "hsv": {
-                        "h": 14,
-                        "s": 159,
-                        "v": 185
-                    },
-                    "percentage": 0.695
+                    "percentage": 7.015
                 }
             ],
             "color_characteristics": {
-                "average_saturation": 11.421,
-                "average_value": 238.78,
+                "average_saturation": 52.321,
+                "average_value": 123.089,
                 "saturation_level": "Low",
                 "color_temperature": "Neutral"
             },
             "lighting": {
-                "brightness_score": 236.841,
-                "brightness_median": 255.0,
-                "shadow_ratio_percent": 4.103,
-                "highlight_ratio_percent": 87.849,
-                "lighting": "Bright",
-                "exposure": "Overexposed",
-                "lighting_quality": "Poor"
+                "brightness_score": 112.455,
+                "brightness_median": 113.0,
+                "shadow_ratio_percent": 19.456,
+                "highlight_ratio_percent": 2.176,
+                "lighting": "Normal",
+                "exposure": "Normally Exposed",
+                "lighting_quality": "Good"
             },
             "contrast": {
-                "contrast_score": 54.916,
-                "minimum_intensity": 0,
-                "maximum_intensity": 255,
-                "dynamic_range": 255,
+                "contrast_score": 62.96,
+                "minimum_intensity": 1,
+                "maximum_intensity": 251,
+                "dynamic_range": 250,
                 "contrast_level": "Medium"
             },
             "quality": {
-                "sharpness_score": 2814.561,
+                "sharpness_score": 189.685,
                 "blur_status": "Sharp",
-                "noise_score": 14.354,
-                "noise_level": "Medium"
+                "noise_score": 2.473,
+                "noise_level": "Low"
             },
             "scene": {
                 "environment": "General",
-                "scene_type": "General"
+                "scene_type": "People / Animals"
             },
             "cinematic": {
-                "cinematic_score": 62.66,
-                "rating": "Moderate"
+                "cinematic_score": 71.16,
+                "rating": "Good"
             },
             "tags": [
                 "black",
-                "blue",
-                "bright",
                 "general",
                 "gray",
+                "low-noise",
                 "medium-contrast",
                 "neutral-tone",
-                "overexposed",
-                "sharp",
-                "white"
+                "normal",
+                "normally exposed",
+                "people---animals",
+                "person",
+                "red",
+                "sharp"
             ]
         },
         {
-            "frame_number": 660,
-            "timestamp_seconds": 22.0,
-            "objects": [],
+            "frame_number": 216,
+            "timestamp_seconds": 8.99,
+            "objects": [
+                {
+                    "object": "person",
+                    "class_id": 0,
+                    "confidence": 0.941,
+                    "confidence_level": "High",
+                    "bbox": {
+                        "x1": 29,
+                        "y1": 255,
+                        "x2": 905,
+                        "y2": 1069
+                    },
+                    "area_percentage": 34.388
+                },
+                {
+                    "object": "person",
+                    "class_id": 0,
+                    "confidence": 0.9383,
+                    "confidence_level": "High",
+                    "bbox": {
+                        "x1": 1093,
+                        "y1": 100,
+                        "x2": 1918,
+                        "y2": 1065
+                    },
+                    "area_percentage": 38.393
+                }
+            ],
             "object_counts": {
-                "total_objects": 0,
-                "unique_object_classes": 0,
-                "object_counts": {},
-                "average_confidence": 0,
-                "highest_confidence": 0,
-                "lowest_confidence": 0
+                "total_objects": 2,
+                "unique_object_classes": 1,
+                "object_counts": {
+                    "person": 2
+                },
+                "average_confidence": 0.9396,
+                "highest_confidence": 0.941,
+                "lowest_confidence": 0.9383
             },
             "dominant_colors": [
                 {
-                    "name": "white",
+                    "name": "gray",
                     "rgb": [
-                        254,
-                        254,
-                        251
+                        168,
+                        174,
+                        170
                     ],
-                    "hex": "#FEFEFB",
+                    "hex": "#A8AEAA",
                     "hsv": {
-                        "h": 30,
-                        "s": 3,
-                        "v": 254
+                        "h": 70,
+                        "s": 9,
+                        "v": 174
                     },
-                    "percentage": 84.58
+                    "percentage": 23.64
                 },
                 {
                     "name": "black",
                     "rgb": [
-                        20,
-                        15,
-                        17
+                        18,
+                        19,
+                        25
                     ],
-                    "hex": "#140F11",
+                    "hex": "#121319",
                     "hsv": {
-                        "h": 168,
-                        "s": 64,
-                        "v": 20
+                        "h": 116,
+                        "s": 71,
+                        "v": 25
                     },
-                    "percentage": 3.895
+                    "percentage": 16.515
+                },
+                {
+                    "name": "red",
+                    "rgb": [
+                        87,
+                        75,
+                        76
+                    ],
+                    "hex": "#574B4C",
+                    "hsv": {
+                        "h": 178,
+                        "s": 35,
+                        "v": 87
+                    },
+                    "percentage": 12.025
                 },
                 {
                     "name": "gray",
                     "rgb": [
-                        207,
-                        208,
-                        207
+                        145,
+                        142,
+                        141
                     ],
-                    "hex": "#CFD0CF",
+                    "hex": "#918E8D",
                     "hsv": {
-                        "h": 60,
-                        "s": 1,
-                        "v": 208
+                        "h": 8,
+                        "s": 7,
+                        "v": 145
                     },
-                    "percentage": 3.865
+                    "percentage": 10.64
                 },
                 {
-                    "name": "white",
+                    "name": "gray",
                     "rgb": [
-                        230,
-                        238,
-                        237
+                        114,
+                        111,
+                        115
                     ],
-                    "hex": "#E6EEED",
+                    "hex": "#726F73",
                     "hsv": {
-                        "h": 86,
+                        "h": 143,
                         "s": 9,
-                        "v": 238
+                        "v": 115
                     },
-                    "percentage": 2.95
+                    "percentage": 10.295
+                },
+                {
+                    "name": "gray",
+                    "rgb": [
+                        201,
+                        212,
+                        207
+                    ],
+                    "hex": "#C9D4CF",
+                    "hsv": {
+                        "h": 76,
+                        "s": 13,
+                        "v": 212
+                    },
+                    "percentage": 9.975
                 },
                 {
                     "name": "blue",
                     "rgb": [
-                        46,
-                        50,
-                        64
+                        43,
+                        44,
+                        53
                     ],
-                    "hex": "#2E3240",
+                    "hex": "#2B2C35",
                     "hsv": {
-                        "h": 113,
-                        "s": 72,
-                        "v": 64
+                        "h": 117,
+                        "s": 48,
+                        "v": 53
                     },
-                    "percentage": 1.375
+                    "percentage": 9.94
                 },
                 {
-                    "name": "gray",
+                    "name": "brown",
                     "rgb": [
-                        153,
-                        158,
-                        166
+                        134,
+                        87,
+                        66
                     ],
-                    "hex": "#999EA6",
+                    "hex": "#865742",
                     "hsv": {
-                        "h": 108,
-                        "s": 20,
-                        "v": 166
+                        "h": 9,
+                        "s": 129,
+                        "v": 134
                     },
-                    "percentage": 1.375
-                },
-                {
-                    "name": "cyan",
-                    "rgb": [
-                        74,
-                        101,
-                        119
-                    ],
-                    "hex": "#4A6577",
-                    "hsv": {
-                        "h": 102,
-                        "s": 96,
-                        "v": 119
-                    },
-                    "percentage": 1.265
-                },
-                {
-                    "name": "orange",
-                    "rgb": [
-                        185,
-                        124,
-                        70
-                    ],
-                    "hex": "#B97C46",
-                    "hsv": {
-                        "h": 14,
-                        "s": 159,
-                        "v": 185
-                    },
-                    "percentage": 0.695
+                    "percentage": 6.97
                 }
             ],
             "color_characteristics": {
-                "average_saturation": 11.421,
-                "average_value": 238.78,
+                "average_saturation": 54.085,
+                "average_value": 123.57,
                 "saturation_level": "Low",
                 "color_temperature": "Neutral"
             },
             "lighting": {
-                "brightness_score": 236.841,
-                "brightness_median": 255.0,
-                "shadow_ratio_percent": 4.103,
-                "highlight_ratio_percent": 87.849,
-                "lighting": "Bright",
-                "exposure": "Overexposed",
-                "lighting_quality": "Poor"
+                "brightness_score": 112.7,
+                "brightness_median": 114.0,
+                "shadow_ratio_percent": 19.865,
+                "highlight_ratio_percent": 2.227,
+                "lighting": "Normal",
+                "exposure": "Normally Exposed",
+                "lighting_quality": "Good"
             },
             "contrast": {
-                "contrast_score": 54.916,
-                "minimum_intensity": 0,
-                "maximum_intensity": 255,
-                "dynamic_range": 255,
+                "contrast_score": 63.033,
+                "minimum_intensity": 1,
+                "maximum_intensity": 251,
+                "dynamic_range": 250,
                 "contrast_level": "Medium"
             },
             "quality": {
-                "sharpness_score": 2814.561,
+                "sharpness_score": 211.084,
                 "blur_status": "Sharp",
-                "noise_score": 14.354,
-                "noise_level": "Medium"
+                "noise_score": 2.659,
+                "noise_level": "Low"
             },
             "scene": {
                 "environment": "General",
-                "scene_type": "General"
+                "scene_type": "People / Animals"
             },
             "cinematic": {
-                "cinematic_score": 62.66,
-                "rating": "Moderate"
+                "cinematic_score": 72.25,
+                "rating": "Good"
             },
             "tags": [
                 "black",
-                "blue",
-                "bright",
                 "general",
                 "gray",
+                "low-noise",
                 "medium-contrast",
                 "neutral-tone",
-                "overexposed",
-                "sharp",
-                "white"
+                "normal",
+                "normally exposed",
+                "people---animals",
+                "person",
+                "red",
+                "sharp"
             ]
         }
     ]

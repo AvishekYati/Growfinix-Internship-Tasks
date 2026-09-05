@@ -1,0 +1,17 @@
+pandas
+numpy
+tqdm
+langchain
+langchain-community
+langchain-text-splitters
+langchain-huggingface
+langchain-chroma
+langchain-groq
+sentence-transformers
+chromadb
+groq
+python-dotenv
+torch
+transformers
+jupyter
+ipykernel
