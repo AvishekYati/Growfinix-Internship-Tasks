@@ -1,8 +1,3 @@
-# 2. Task 2 README
-
-Create or replace `Task-2-Real-Estate-RAG/README.md` with the following content:
-
-```markdown
 # Task 2: Real Estate & Hotel Recommendation RAG System
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
@@ -33,7 +28,6 @@ Developed as part of the **Growfinix Technology Data Science Internship (Month 3
 ---
 
 ## 📖 Overview
-
 Standard keyword search fails when users describe hotel requirements conceptually (e.g., *"quiet boutique stays with mountain views, infinity pool, and breakfast near the city center"*).
 
 This project addresses this by:
@@ -41,12 +35,11 @@ This project addresses this by:
 2. Embedding textual chunks using `sentence-transformers/all-MiniLM-L6-v2` into a 384-dimensional vector space.
 3. Persisting vectors in a local vector database (**ChromaDB**).
 4. Retrieving relevant properties based on semantic similarity rather than exact keywords.
-5. Augmenting a strictly conditioned LLM prompt (**ChatGroq** with Qwen 2.5 / 3.6 models) to eliminate hallucinations and produce structured, verifiable recommendations.
+5. Augmenting a strictly conditioned LLM prompt (**ChatGroq** with Qwen 2.5/3.6 models) to eliminate hallucinations and produce structured, verifiable recommendations.
 
 ---
 
 ## ⚡ Key Features
-
 * **Large-Scale Data Handling:** Data processing pipeline tested on an international hotel dataset of **1,010,033 rows**, featuring deduplication and text normalization.
 * **Deterministic Embeddings:** Normalized 384-dimensional embeddings for fast cosine similarity search.
 * **Persistent Vector Store:** ChromaDB indexing with batch ingestion and disk persistence.
@@ -56,36 +49,36 @@ This project addresses this by:
 ---
 
 ## 🏗 RAG Architecture
-
 ```text
-              [ Raw Dataset: hotels.csv (1M+ Records) ]
-                                  │
-                                  ▼
-             [ Data Cleaning & Normalization (Regex) ]
-                                  │
-                                  ▼
-       [ Structured Property Representation (Document Builder) ]
-                                  │
-                                  ▼
-        [ Chunking: RecursiveCharacterTextSplitter (1000/150) ]
-                                  │
-                                  ▼
-     [ Dense Vectors: sentence-transformers/all-MiniLM-L6-v2 ]
-                                  │
-                                  ▼
-                [ Local Vector Store: ChromaDB ]
-                                  │
+[Raw Dataset: hotels.csv (1M+ Records)]
+│
+▼
+[Data Cleaning & Normalization (Regex)]
+│
+▼
+[Structured Property Representation (Document Builder)]
+│
+▼
+[Chunking: RecursiveCharacterTextSplitter (1000/150)]
+│
+▼
+[Dense Vectors: sentence-transformers/all-MiniLM-L6-v2]
+│
+▼
+[Local Vector Store: ChromaDB]
+│
 ──────────────────────────────────┼──────────────────────────────────
-   [ User Query ]                 │
-         │                        │
-         ▼                        ▼
-  [ Query Vector ] ───► [ Top-K Cosine Similarity Retrieval ]
+                                  │
+[User Query]                      │
+│                                 │
+▼                                 ▼
+[Query Vector] ───► [Top-K Cosine Similarity Retrieval]
                                   │
                                   ▼
-                    [ Formatted Context Block ]
+                      [Formatted Context Block]
                                   │
                                   ▼
-            [ Grounded Prompt Template + Groq LLM ]
+              [Grounded Prompt Template + Groq LLM]
                                   │
                                   ▼
-           [ Structured AI Recommendation + Source URLs ]
+        [Structured AI Recommendation + Source URLs]
