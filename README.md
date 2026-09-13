@@ -227,3 +227,37 @@ Growfinix requires completed tasks to include GitHub documentation and project e
 **Avishek Kumar Yati**
 
 Data Science | Machine Learning | Generative AI | Computer Vision | MLOps
+
+# Task 3 - Customer Segmentation
+
+An unsupervised machine-learning system that discovers hidden customer segments from retail transaction behavior.
+
+### Key Capabilities
+
+- Transaction data cleaning
+- RFM feature engineering
+- Customer behavioral analysis
+- K-Means clustering
+- DBSCAN clustering
+- Elbow method
+- Silhouette score
+- PCA
+- Interactive 3D visualization using Plotly
+- Customer segment profiling
+- Marketing recommendations
+
+### Technologies
+
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- K-Means
+- DBSCAN
+- PCA
+- Plotly
+- Jupyter Notebook
+
+### Project
+
+[Task 3 - Customer Segmentation](Task-3-Customer-Segmentation/)
