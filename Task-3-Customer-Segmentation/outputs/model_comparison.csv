@@ -1,0 +1,3 @@
+Model,Clusters,Noise_Customers,Silhouette
+K-Means,2,0,0.3262028033105008
+DBSCAN,2,483,
